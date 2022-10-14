@@ -1,0 +1,295 @@
+@media screen and (max-width: 1130px) {
+    .first .img img {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .fourth .clientWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth .worked{
+        font-size: 3rem;
+        margin-left: -80px;
+        text-align: center;
+    }
+
+    .fourth .clientWrapper img {
+        width: 150px;
+        height: auto;
+        display: grid;
+    }
+
+    .fifth{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth .workBtn button {
+        background-color: var(--light-grey);
+        color: var(--yellow-color);
+        border: none;
+        font-size: 28px;
+        padding: 16px 34px;
+        cursor: pointer;
+        margin-top: 14px;
+        margin-left: 350px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .third .servicesWrapper .design {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        text-align: center;
+    }
+
+    .third .servicesWrapper .web {
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .third .servicesWrapper .design .designImg img {
+        width: 150px;
+        height: auto;
+    }
+
+    .third .servicesWrapper .design .designImg h1 {
+        font-size: 2.3rem;
+    }
+
+    .third .servicesWrapper .design .designImg p {
+        font-size: 1rem;
+    }
+
+    .third .servicesWrapper .web .webImg img {
+        width: 150px;
+        height: auto;
+    }
+
+    .third .servicesWrapper .web .aboutWeb h1 {
+        font-size: 2.3rem;
+    }
+
+    .third .servicesWrapper .web .aboutWeb p {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media screen and (max-width:890px) {
+    .first {
+        display: flex;
+        text-align: center;
+    }
+
+    .first .img img {
+        max-width: 400px;
+        margin-left: 20px;
+    }
+
+    .first .intro h1 {
+        font-size: 6rem;
+    }
+
+    .second {
+        padding: 80px 0;
+        width: 100vw;
+    }
+
+    .second .aboutWrapper .aboutMe {
+        margin-left: 30px;
+    }
+
+    .second .aboutWrapper .aboutMe h1 {
+        font-size: 2.5rem;
+    }
+
+    .second .aboutWrapper .aboutMe p {
+        font-size: 1rem;
+        max-width: 1000px;
+    }
+
+    .second .aboutWrapper .query {
+        margin-right: 30px;
+    }
+
+    .second .aboutWrapper .query h3 {
+        font-size: 1rem;
+    }
+
+    .second .aboutWrapper .query p {
+        font-size: .95rem;
+    }
+
+    .second .aboutWrapper button {
+        max-width: 190px;
+        font-size: .95rem;
+    }
+
+    .third .services {
+        font-size: 3rem;
+    }
+
+    .third .servicesWrapper .design {
+        margin: 0 auto;
+        width: 200px;
+        height: 600px;
+    }
+
+    .third .servicesWrapper .web {
+        margin: 0 auto;
+        width: 200px;
+        height: 600px;
+    }
+
+    .third .servicesWrapper .design .aboutDesign h1 {
+        font-size: 2rem;
+    }
+
+    .third .servicesWrapper .design .aboutDesign p {
+        font-size: 1rem;
+    }
+
+    .third .servicesWrapper .design .designImg img {
+        width: 100px;
+        height: auto;
+    }
+
+    .third .servicesWrapper .web {
+        margin-top: 70px;
+    }
+
+    .third .servicesWrapper .web .aboutWeb h1 {
+        font-size: 2rem;
+    }
+
+    .third .servicesWrapper .web .aboutWeb p {
+        font-size: 1rem;
+    }
+
+    .third .servicesWrapper .web .aboutWeb img {
+        width: 100px;
+        height: auto;
+    }
+
+    footer{
+        width: 400px;
+    }
+
+    footer h1{
+        font-size: 2rem;
+    }
+
+    footer h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (width:912px) {
+    .first .img img {
+        max-width: 500px;
+    }
+
+    .first .intro h1 {
+        font-size: 6.6rem;
+    }
+
+    .first .intro p {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+    .first .intro .social i {
+        font-size: 3rem;
+    }
+
+    .first .intro button {
+        background-color: var(--yellow-color);
+        color: var(--light-grey);
+        border: none;
+        font-size: 3rem;
+        padding: 16px 34px;
+        cursor: pointer;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first .introWrapper {
+        justify-content: space-between;
+    }
+
+    .first .intro h1 {
+        font-size: 4.5rem;
+        line-height: normal;
+    }
+
+    .first .img img {
+        max-width: 250px;
+    }
+}
+
+@media screen and (width: 280px) {
+    .second {
+        padding: 80px 0 0 60px;
+    }
+
+    .second .aboutWrapper .aboutMe {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (width: 820px) {
+    .third .servicesWrapper .design {
+        width: 600px;
+    }
+
+    .third .servicesWrapper .design .designImg img {
+        width: 200px;
+        height: auto;
+    }
+
+    .third .servicesWrapper .design .aboutDesign h1 {
+        font-size: 3rem;
+    }
+
+    .third .servicesWrapper .design .aboutDesign p {
+        font-size: 1.2rem;
+    }
+
+    .third .servicesWrapper .web {
+        width: 600px;
+    }
+
+    .third .servicesWrapper .web .webImg img {
+        width: 200px;
+        height: auto;
+    }
+
+    .third .servicesWrapper .web .webImg h1 {
+        font-size: 3rem;
+    }
+
+    .third .servicesWrapper .web .webImg p {
+        font-size: 1.2rem;
+    }
+}
