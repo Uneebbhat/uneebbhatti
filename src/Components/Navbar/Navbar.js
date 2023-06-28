@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/logo.svg";
@@ -12,10 +13,12 @@ export default function Navbar() {
         <div className="nav-links">
           <ul className="nav-ul flex">
             <li>
-              <a href="/">Home</a>
+              <Link to="/" className="active">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/">About</a>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,52 @@
+/* Utility Classes */
+.flex {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    height: 100px;
+    padding: 0 120px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    transition: all .3s ease;
+}
+
+.logo img {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.nav-links {
+    background-color: #f6f6f6;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.active {
+    background-color: white;
+    padding: 15px 28px;
+    border-radius: 50px;
+    margin-left: -15px;
+    margin-right: 20px;
+}
+
+@media screen and (width <=1000px) {
+    .navbar {
+        padding: 0 20px;
+    }
+}
