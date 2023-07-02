@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'GRIFTER';
+    /* src: url('/src/fonts/grifterbold.eot'); */
+    src:
+        url('/src/fonts/grifterbold.woff2') format('woff2'),
+        url('/src/fonts/grifterbold.woff') format('woff'),
+        url('/src/fonts/grifterbold.ttf') format('truetype');
+}
+
+.process-section-wrapper {
+    padding: 80px 120px;
+}
+
+.process-header {
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: 'GRIFTER';
+}
+
+.process-header h2 {
+    font-family: 'GRIFTER';
+    font-size: clamp(1.5rem, 10vw, 2.625rem);
+}
+
+.process-header img {
+    max-width: clamp(1.5rem, 10vw, 2.625rem);
+}
+
+.process-header p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1rem, 10vw, 1.5rem);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.same-bg {
+    background-color: #ECEFF1;
+    padding: 28px 18px;
+}
+
+.process-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 18px;
+    margin-top: 50px;
+}
+
+.process-wrapper p {
+    margin-top: 18px;
+    font-family: 'DM Sans';
+}
+
+@media screen and (width <=1000px) {
+    .process-section-wrapper {
+        padding: 80px 40px;
+    }
+}
