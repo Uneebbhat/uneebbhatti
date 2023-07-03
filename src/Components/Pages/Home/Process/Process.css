@@ -11,6 +11,11 @@
 
 .process-section-wrapper {
     padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Add this line */
 }
 
 .process-header {
@@ -48,6 +53,10 @@ h3 {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 18px;
     margin-top: 50px;
+    justify-items: center;
+    /* Centers the grid items horizontally */
+    align-items: center;
+    /* Centers the grid items vertically */
 }
 
 .process-wrapper p {
@@ -55,8 +64,8 @@ h3 {
     font-family: 'DM Sans';
 }
 
-@media screen and (width <=1000px) {
+@media screen and (max-width: 1000px) {
     .process-section-wrapper {
-        padding: 80px 40px;
+        padding: 80px 20px;
     }
 }
