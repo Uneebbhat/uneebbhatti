@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/uneebbhatti/static/css/main.a2248cc3.css",
+    "main.js": "/uneebbhatti/static/js/main.71f75668.js",
+    "static/js/787.1ed0c42c.chunk.js": "/uneebbhatti/static/js/787.1ed0c42c.chunk.js",
+    "static/media/thinking-face.gif": "/uneebbhatti/static/media/thinking-face.764b0e2c63e80fdb10a3.gif",
+    "static/media/work1.svg": "/uneebbhatti/static/media/work1.5f4c9aa11f8eaa9804ac48592c22c48a.svg",
+    "static/media/work2.svg": "/uneebbhatti/static/media/work2.1abea1e04294e02a1630a42d33095cbc.svg",
+    "static/media/work3.svg": "/uneebbhatti/static/media/work3.c781eb868e325bc1d3ce2b234da208cd.svg",
+    "static/media/my-img.svg": "/uneebbhatti/static/media/my-img.f1e1acb94f3aed687e64729b2a6ee470.svg",
+    "static/media/arrow.gif": "/uneebbhatti/static/media/arrow.bf84565730718e044596.gif",
+    "static/media/instagram.svg": "/uneebbhatti/static/media/instagram.8216c799e3f117c2dbccbe8bf2ec2ce8.svg",
+    "static/media/logo.svg": "/uneebbhatti/static/media/logo.8d3228d1aa583bbdea3509889ac17182.svg",
+    "static/media/grifterbold.ttf": "/uneebbhatti/static/media/grifterbold.2bd866c1f6c8ee230c84.ttf",
+    "static/media/reddit.svg": "/uneebbhatti/static/media/reddit.66eecb545a47f4af2f2840dddea24487.svg",
+    "static/media/facebook.svg": "/uneebbhatti/static/media/facebook.f13ad000e9e2933e5a33f8f9ac29df18.svg",
+    "static/media/grifterbold.woff": "/uneebbhatti/static/media/grifterbold.e8cdfe159ec01874e601.woff",
+    "static/media/grifterbold.woff2": "/uneebbhatti/static/media/grifterbold.8dece943dee14b91da8d.woff2",
+    "index.html": "/uneebbhatti/index.html",
+    "main.a2248cc3.css.map": "/uneebbhatti/static/css/main.a2248cc3.css.map",
+    "main.71f75668.js.map": "/uneebbhatti/static/js/main.71f75668.js.map",
+    "787.1ed0c42c.chunk.js.map": "/uneebbhatti/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2248cc3.css",
+    "static/js/main.71f75668.js"
+  ]
+}
