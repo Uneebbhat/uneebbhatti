@@ -88,6 +88,11 @@
     border-radius: 10px;
     background-color: #F6F6F6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.website-link .website-link-btn a {
+    color: black;
 }
 
 .website-link .website-link-btn img {

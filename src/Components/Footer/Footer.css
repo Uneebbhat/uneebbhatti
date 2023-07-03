@@ -20,6 +20,13 @@
 
 .images>* {
     margin: 0 30px;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.images>*:hover {
+    filter: grayscale(0);
+
 }
 
 .contact {

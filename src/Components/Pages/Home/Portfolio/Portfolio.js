@@ -5,6 +5,7 @@ import work1 from "../../../../assets/work1.svg";
 import work2 from "../../../../assets/work2.svg";
 import work3 from "../../../../assets/work3.svg";
 import arrow from "../../../../assets/arrow.gif";
+import { Link } from "react-router-dom";
 // import data from "../../../../data/portfolio.json";
 
 export default function Portfolio() {
@@ -40,12 +41,16 @@ export default function Portfolio() {
                     <p>Developed the website for a UI/UX designer</p>
                   </div>
                   <div className="website-link">
-                    <button className="website-link-btn">
-                      Visit the website{" "}
-                      <span>
-                        <img src={arrow} alt="" />
-                      </span>
-                    </button>
+                    <Link
+                      to="https://talhakhandesigns123.web.app/"
+                      target="_blank">
+                      <button className="website-link-btn">
+                        Visit the website{" "}
+                        <span>
+                          <img src={arrow} alt="" />
+                        </span>
+                      </button>
+                    </Link>
                   </div>
                 </div>
                 <div className="right">
@@ -63,12 +68,16 @@ export default function Portfolio() {
                     <p>Developed a landing page for marketing company</p>
                   </div>
                   <div className="website-link">
-                    <button className="website-link-btn">
-                      Visit the website{" "}
-                      <span>
-                        <img src={arrow} alt="" />
-                      </span>
-                    </button>
+                    <Link
+                      to="https://uneebbhat.github.io/vision-capital/"
+                      target="_blank">
+                      <button className="website-link-btn">
+                        Visit the website{" "}
+                        <span>
+                          <img src={arrow} alt="" />
+                        </span>
+                      </button>
+                    </Link>
                   </div>
                 </div>
                 <div className="right">
@@ -88,12 +97,16 @@ export default function Portfolio() {
                     </p>
                   </div>
                   <div className="website-link">
-                    <button className="website-link-btn">
-                      Visit the website{" "}
-                      <span>
-                        <img src={arrow} alt="" />
-                      </span>
-                    </button>
+                    <Link
+                      to="https://uneebbhat.github.io/bookmark/"
+                      target="_blank">
+                      <button className="website-link-btn">
+                        Visit the website{" "}
+                        <span>
+                          <img src={arrow} alt="" />
+                        </span>
+                      </button>
+                    </Link>
                   </div>
                 </div>
                 <div className="right">
