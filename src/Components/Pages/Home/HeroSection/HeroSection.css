@@ -81,6 +81,10 @@
     cursor: pointer;
 }
 
+.btn a {
+    color: white;
+}
+
 @keyframes gradientAnimation {
     0% {
         background-position: left;
