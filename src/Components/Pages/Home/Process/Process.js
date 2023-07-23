@@ -9,7 +9,7 @@ export default function Process() {
         <div className="process-section-wrapper">
           <div className="process-header">
             <h2>
-              What I do{" "}
+              How I do{" "}
               <span>
                 <img src={thinkingFace} alt="🤔" />
               </span>
