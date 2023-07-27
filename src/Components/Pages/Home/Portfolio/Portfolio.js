@@ -28,9 +28,6 @@ export default function Portfolio() {
           </div>
           <div className="portfolio">
             <div className="portfolio-card-wrapper">
-              {/* {data.map((item) => (
-                <h1 key={item.id}>{item.title}</h1>
-              ))} */}
               <div className="first">
                 <div className="left">
                   <div className="head">
@@ -61,15 +58,17 @@ export default function Portfolio() {
               <div className="first">
                 <div className="left">
                   <div className="head">
-                    <h2>Landing Page</h2>
+                    <h2>E-commerce</h2>
                     <p>Front-End Developer - 2023</p>
                   </div>
                   <div className="desc">
-                    <p>Developed a landing page for marketing company</p>
+                    <p>
+                      Developed an e-commerce website using react and firebase
+                    </p>
                   </div>
                   <div className="website-link">
                     <Link
-                      to="https://uneebbhat.github.io/vision-capital/"
+                      to="https://react-e-commerce-ivory.vercel.app/"
                       target="_blank">
                       <button className="website-link-btn">
                         Visit the website{" "}
