@@ -35,7 +35,13 @@ export default function Portfolio() {
                     <p>Front-End Development - 2023</p>
                   </div>
                   <div className="desc">
-                    <p>Developed the website for a UI/UX designer</p>
+                    <p>
+                      Developed the website for a UI/UX designer using{" "}
+                      <strong>
+                        {" "}
+                        building blocks of website(html, css and js)
+                      </strong>
+                    </p>
                   </div>
                   <div className="website-link">
                     <Link
@@ -63,7 +69,8 @@ export default function Portfolio() {
                   </div>
                   <div className="desc">
                     <p>
-                      Developed an e-commerce website using react and firebase
+                      Developed an e-commerce website using{" "}
+                      <strong>react and firebase</strong>
                     </p>
                   </div>
                   <div className="website-link">
@@ -92,7 +99,8 @@ export default function Portfolio() {
                   </div>
                   <div className="desc">
                     <p>
-                      Developed a landing page for a bookmark organizer appy
+                      Developed a landing page of a crypto website using{" "}
+                      <strong>webflow</strong>
                     </p>
                   </div>
                   <div className="website-link">
