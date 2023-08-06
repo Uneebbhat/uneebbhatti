@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import fb from "../../assets/facebook.svg";
+import linkedin from "../../assets/linkedin.png";
 import insta from "../../assets/instagram.svg";
-import reddit from "../../assets/reddit.svg";
+import github from "../../assets/github.png";
 
 export default function Footer() {
   return (
@@ -12,14 +12,16 @@ export default function Footer() {
         <div className="footer-wrapper">
           <div className="images">
             <Link
-              to="https://www.facebook.com/profile.php?id=100010313268131"
+              to="https://www.linkedin.com/in/uneeb-bhatti-4194b4224/"
               target="_blank">
-              <img src={fb} alt="Facebook" />
+              <img src={linkedin} alt="Facebook" />
             </Link>
             <Link to="https://www.instagram.com/_uneeb_15/" target="_blank">
               <img src={insta} alt="Instagram" />
             </Link>
-            <img src={reddit} alt="Reddit" />
+            <Link to="https://github.com/Uneebbhat" target="_blank">
+              <img src={github} alt="Github" className="github" />
+            </Link>
           </div>
           <div className="contact">
             <a href="mailto:uneebbhatti3@gmail.com">uneebbhatti3@gmail.com</a>
