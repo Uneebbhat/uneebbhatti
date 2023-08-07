@@ -29,6 +29,14 @@
     font-family: "DM Sans";
 }
 
+.footer-wrapper .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
 .footer-wrapper .images img {
     width: 30px;
     height: auto;
