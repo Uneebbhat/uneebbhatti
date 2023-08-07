@@ -13,6 +13,8 @@ a {
 
 /* Navbar */
 .navbar {
+    max-width: 1180px;
+    margin-inline: auto;
     height: 100px;
     padding: 0 120px;
     align-items: center;

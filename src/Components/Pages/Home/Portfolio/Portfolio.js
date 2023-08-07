@@ -39,7 +39,7 @@ export default function Portfolio() {
                       Developed the website for a UI/UX designer using{" "}
                       <strong>
                         {" "}
-                        building blocks of website(html, css and js)
+                        building blocks of website (html, css and js)
                       </strong>
                     </p>
                   </div>
@@ -104,9 +104,7 @@ export default function Portfolio() {
                     </p>
                   </div>
                   <div className="website-link">
-                    <Link
-                      to="https://krypto1.webflow.io/"
-                      target="_blank">
+                    <Link to="https://krypto1.webflow.io/" target="_blank">
                       <button className="website-link-btn">
                         Visit the website{" "}
                         <span>

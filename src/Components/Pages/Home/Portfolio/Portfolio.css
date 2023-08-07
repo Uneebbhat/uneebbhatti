@@ -30,7 +30,7 @@
 
 .header p {
     font-family: 'DM Sans', sans-serif;
-    font-size: clamp(1rem, 10vw, 1.5rem);
+    font-size: clamp(1rem, 10vw, 1.2rem);
     max-width: 600px;
     margin: 20px auto;
 }
@@ -65,7 +65,7 @@
 
 .first p {
     font-family: 'DM Sans';
-    font-size: clamp(0.75rem, 8vw, 1.125rem);
+    font-size: clamp(0.75rem, 8vw, 1rem);
 }
 
 .desc {
@@ -74,7 +74,8 @@
 
 .desc p {
     font-family: 'DM Sans';
-    font-size: clamp(12px, 8vw, 1.5rem);
+    font-size: clamp(12px, 8vw, 1.2rem);
+    line-height: 30px;
 }
 
 .website-link .website-link-btn {
@@ -111,7 +112,7 @@
     }
 
     .first .left {
-        padding: 20px;
+        padding: 40px 20px;
     }
 
     .first .right img {

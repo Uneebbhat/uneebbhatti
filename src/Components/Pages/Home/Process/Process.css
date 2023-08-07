@@ -38,7 +38,7 @@ h3 {
 
 .process-header p {
     font-family: 'DM Sans', sans-serif;
-    font-size: clamp(1rem, 10vw, 1.5rem);
+    font-size: clamp(1rem, 10vw, 1rem);
     max-width: 800px;
     margin: 20px auto;
 }
