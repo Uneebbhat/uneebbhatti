@@ -4,6 +4,7 @@ import "./Footer.css";
 import linkedin from "../../assets/linkedin.png";
 import insta from "../../assets/instagram.svg";
 import github from "../../assets/github.png";
+import buyMeCoffee from "../../assets/buy-me-coffee.png";
 
 export default function Footer() {
   return (
@@ -21,6 +22,13 @@ export default function Footer() {
             </Link>
             <Link to="https://github.com/Uneebbhat" target="_blank">
               <img src={github} alt="Github" className="github" />
+            </Link>
+            <Link to="https://www.buymeacoffee.com/uneebbhatti" target="_blank">
+              <img
+                src={buyMeCoffee}
+                alt="Buy me a coffee"
+                className="buyMeCoffee"
+              />
             </Link>
           </div>
           <div className="contact">
