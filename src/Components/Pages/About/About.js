@@ -47,34 +47,46 @@ export default function About() {
 
           <div className="about-me">
             <p>
-              My name is Uneeb Bhatti, and I am a talented web developer hailing
-              from Pakistan. With 1 year of experience in the field, I have
-              cultivated a strong passion for crafting remarkable online
-              experiences. I specialize in using HTML, CSS, JavaScript, React,
-              and Firebase to build dynamic and innovative websites. By
-              leveraging these technologies, I bring digital concepts to life,
-              creating seamless and intuitive user interfaces. My goal is to
-              create websites that not only captivate users visually but also
-              provide exceptional functionality and user experiences. With a
-              keen eye for detail and a dedication to staying up-to-date with
-              the latest industry practices, I ensure that my work is of the
-              highest quality, meeting and exceeding client expectations.
+              Hello, I'm Uneeb Bhatti, an enthusiastic web developer hailing
+              from Pakistan, with a strong desire to create remarkable online
+              experiences. While I'm relatively new to the freelancing scene on
+              platforms like Fiverr and Upwork, I bring a year of hands-on
+              experience in web development, specializing in HTML, CSS,
+              JavaScript, React, and Firebase. My focus is on building dynamic
+              and innovative websites that showcase my passion for delivering
+              both stunning visuals and exceptional functionality.
             </p>
             <br />
             <p>
-              In addition to my web development skills, I possess a strong
-              aptitude for design. I utilize industry-leading design software
-              such as Figma, Adobe XD, Illustrator, and Photoshop to bring my
-              creative vision to reality. These tools allow me to design
-              visually stunning interfaces, create engaging user interactions,
-              and craft memorable branding elements. By seamlessly integrating
-              design and development, I strive to provide holistic solutions
-              that are both aesthetically pleasing and functionally robust.
-              Whether it's conceptualizing wireframes, refining user flows, or
-              polishing the final visual assets, I approach every design element
-              with meticulous attention to detail. I am constantly seeking to
-              push the boundaries of what is possible, always looking for
-              innovative ways to elevate the digital experiences I create.
+              My goal is to create websites that not only captivate users
+              visually but also provide seamless and intuitive user interfaces.
+              I'm dedicated to staying up-to-date with the latest industry
+              practices to ensure that my work is of the highest quality, even
+              as I'm just starting to establish my freelancing career.
+            </p>
+            <br />
+            <p>
+              I possess a strong aptitude for design and use industry-leading
+              design software such as Figma, Adobe XD, Illustrator, and
+              Photoshop to bring my creative vision to reality. By seamlessly
+              integrating design and development, I strive to provide holistic
+              solutions that are both aesthetically pleasing and functionally
+              robust.
+            </p>
+            <br />
+            <p>
+              Even though I'm at the early stages of building my freelancing
+              portfolio, my commitment to meticulous attention to detail is
+              unwavering. I'm constantly seeking to push the boundaries of
+              what's possible, always on the lookout for innovative ways to
+              elevate the digital experiences I create.
+            </p>
+            <br />
+            <p>
+              I'm excited to kickstart my freelancing journey and eager to
+              collaborate with clients who share my vision. Together, we can
+              bring your digital ideas to life, creating something extraordinary
+              that leaves a lasting impression.
             </p>
           </div>
         </div>
