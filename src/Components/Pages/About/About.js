@@ -52,7 +52,7 @@ export default function About() {
               experiences. While I'm relatively new to the freelancing scene on
               platforms like Fiverr and Upwork, I bring a year of hands-on
               experience in web development, specializing in HTML, CSS,
-              JavaScript, React, and Firebase. My focus is on building dynamic
+              JavaScript, React, and Webflow. My focus is on building dynamic
               and innovative websites that showcase my passion for delivering
               both stunning visuals and exceptional functionality.
             </p>
@@ -67,11 +67,10 @@ export default function About() {
             <br />
             <p>
               I possess a strong aptitude for design and use industry-leading
-              design software such as Figma, Adobe XD, Illustrator, and
-              Photoshop to bring my creative vision to reality. By seamlessly
-              integrating design and development, I strive to provide holistic
-              solutions that are both aesthetically pleasing and functionally
-              robust.
+              design software such as Figma, Illustrator, and Photoshop to bring
+              my creative vision to reality. By seamlessly integrating design
+              and development, I strive to provide holistic solutions that are
+              both aesthetically pleasing and functionally robust.
             </p>
             <br />
             <p>
