@@ -95,7 +95,7 @@ export default function About() {
             <a
               itemprop="url"
               href="https://www.fiverr.com/uneeb_bhatti"
-              rel="nofollow"
+              rel="nofollow noreferrer"
               target="_blank"
               style={{ display: "inline-block" }}>
               <div
