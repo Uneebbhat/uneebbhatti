@@ -10,7 +10,8 @@ const Contact = () => {
           <hr />
           <p>
             Got an idea to discuss, a project to work on, or simply want to
-            connect? Reach out to me at uneebbhatti3@gmail.com
+            connect? Reach out to me at{" "}
+            <a href="mailto:uneebbhatti3@gmail.com">uneebbhatti3@gmail.com</a>
           </p>
         </div>
       </section>
