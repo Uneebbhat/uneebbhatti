@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "GRIFTER";
+  /* src: url('/src/fonts/grifterbold.eot'); */
+  src: url("/src/fonts/grifterbold.woff2") format("woff2"),
+    url("/src/fonts/grifterbold.woff") format("woff"),
+    url("/src/fonts/grifterbold.ttf") format("truetype");
+}
+
+.project-wrapper {
+  display: grid;
+  place-content: center;
+  height: calc(90vh - 100px);
+}
+
+.coming-soon {
+  font-family: "GRIFTER";
+  font-size: 8rem;
+}
+
+.letter-gap {
+  letter-spacing: 2.88rem;
+}

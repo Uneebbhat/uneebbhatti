@@ -17,7 +17,8 @@ export default function Navbar() {
             <li>
               <Link
                 to="/"
-                className={location.pathname === "/" ? "active" : ""}>
+                className={location.pathname === "/" ? "active" : ""}
+              >
                 Home
               </Link>
             </li>
@@ -26,8 +27,25 @@ export default function Navbar() {
                 to="/about"
                 className={`${location.pathname === "/about" ? "active" : ""} ${
                   location.pathname === "/about" ? "no-margin-right" : ""
-                }`}>
+                }`}
+              >
                 About
+              </Link>
+              <Link
+                to="/project"
+                className={`${
+                  location.pathname === "/project" ? "active" : ""
+                } ${location.pathname === "/project" ? "no-margin-right" : ""}`}
+              >
+                Projects
+              </Link>
+              <Link
+                to="/contact"
+                className={`${
+                  location.pathname === "/contact" ? "active" : ""
+                } ${location.pathname === "/contact" ? "no-margin-right" : ""}`}
+              >
+                Contact
               </Link>
             </li>
           </ul>

@@ -10,7 +10,7 @@ export function HeroSection() {
           <div className="content">
             <div className="heading">
               <h1>
-                Hi <span className="waving-emoji">👋</span>, I am Uneeb
+                Hi<span className="waving-emoji">👋</span>, I am Uneeb
               </h1>
             </div>
             <div className="para">
@@ -23,7 +23,8 @@ export function HeroSection() {
               <button className="btn">
                 <Link
                   to="https://calendly.com/uneebbhatti/meeting"
-                  target="_blank">
+                  target="_blank"
+                >
                   Launch your vision
                 </Link>
               </button>

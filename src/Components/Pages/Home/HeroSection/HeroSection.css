@@ -1,96 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
 
 @font-face {
-    font-family: 'GRIFTER';
-    /* src: url('/src/fonts/grifterbold.eot'); */
-    src:
-        url('/src/fonts/grifterbold.woff2') format('woff2'),
-        url('/src/fonts/grifterbold.woff') format('woff'),
-        url('/src/fonts/grifterbold.ttf') format('truetype');
+  font-family: "GRIFTER";
+  /* src: url('/src/fonts/grifterbold.eot'); */
+  src: url("/src/fonts/grifterbold.woff2") format("woff2"),
+    url("/src/fonts/grifterbold.woff") format("woff"),
+    url("/src/fonts/grifterbold.ttf") format("truetype");
 }
 
-
 .main-wrapper {
-    padding: 80px 20px;
-    text-align: center;
-    margin-inline: auto;
+  padding: 80px 20px;
+  text-align: center;
+  margin-inline: auto;
+  height: 51.5svh;
 }
 
 .content h1 {
-    font-size: clamp(3rem, 10vw, 6rem);
-    font-family: 'GRIFTER';
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-family: "GRIFTER";
 }
 
 .content h1 .waving-emoji {
-    animation: waving-hand 2.5s infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
+  animation: waving-hand 2.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
 
 @keyframes waving-hand {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    10% {
-        transform: rotate(14deg);
-    }
+  10% {
+    transform: rotate(14deg);
+  }
 
-    20% {
-        transform: rotate(-8deg);
-    }
+  20% {
+    transform: rotate(-8deg);
+  }
 
-    30% {
-        transform: rotate(14deg);
-    }
+  30% {
+    transform: rotate(14deg);
+  }
 
-    40% {
-        transform: rotate(-4deg);
-    }
+  40% {
+    transform: rotate(-4deg);
+  }
 
-    50% {
-        transform: rotate(10deg);
-    }
+  50% {
+    transform: rotate(10deg);
+  }
 
-    60% {
-        transform: rotate(0deg);
-    }
+  60% {
+    transform: rotate(0deg);
+  }
 
-    100% {
-        transform: rotate(0deg);
-    }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .content p {
-    font-family: 'DM Sans', sans-serif;
-    font-size: clamp(1rem, 10vw, 1.2rem);
-    max-width: 700px;
-    margin: 20px auto;
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1rem, 10vw, 1.2rem);
+  max-width: 700px;
+  margin: 20px auto;
 }
 
 .content .btn {
-    background-image: linear-gradient(318deg, #A5DAE6 0%, #8F9FF5 22.92%, #AA74D1 48.44%, #CC73AA 71.88%, #EF7283 100%);
-    background-size: 200%;
-    padding: 20px 40px;
-    border: 0;
-    outline: 0;
-    border-radius: 50px;
-    color: white;
-    font-size: 1.25rem;
-    animation: gradientAnimation 4s infinite alternate;
-    cursor: pointer;
+  background-image: linear-gradient(
+    318deg,
+    #a5dae6 0%,
+    #8f9ff5 22.92%,
+    #aa74d1 48.44%,
+    #cc73aa 71.88%,
+    #ef7283 100%
+  );
+  background-size: 200%;
+  padding: 20px 40px;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.25rem;
+  animation: gradientAnimation 4s infinite alternate;
+  cursor: pointer;
 }
 
 .btn a {
-    color: white;
+  color: white;
 }
 
 @keyframes gradientAnimation {
-    0% {
-        background-position: left;
-    }
+  0% {
+    background-position: left;
+  }
 
-    100% {
-        background-position: right;
-    }
+  100% {
+    background-position: right;
+  }
 }

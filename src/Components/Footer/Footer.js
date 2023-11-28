@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import linkedin from "../../assets/linkedin.png";
-import insta from "../../assets/instagram.svg";
-import github from "../../assets/github.png";
-import buyMeCoffee from "../../assets/buy-me-coffee.png";
+import linkedin from "../../assets/linkedin.svg";
+import mail from "../../assets/mail.svg";
+import github from "../../assets/github.svg";
 
 export default function Footer() {
   return (
@@ -14,25 +13,16 @@ export default function Footer() {
           <div className="images">
             <Link
               to="https://www.linkedin.com/in/uneeb-bhatti-4194b4224/"
-              target="_blank">
+              target="_blank"
+            >
               <img src={linkedin} alt="Facebook" />
             </Link>
             <Link to="https://www.instagram.com/_uneeb_15/" target="_blank">
-              <img src={insta} alt="Instagram" />
+              <img src={mail} alt="Instagram" />
             </Link>
             <Link to="https://github.com/Uneebbhat" target="_blank">
               <img src={github} alt="Github" className="github" />
             </Link>
-            <Link to="https://www.buymeacoffee.com/uneebbhatti" target="_blank">
-              <img
-                src={buyMeCoffee}
-                alt="Buy me a coffee"
-                className="buyMeCoffee"
-              />
-            </Link>
-          </div>
-          <div className="contact">
-            <a href="mailto:uneebbhatti3@gmail.com">uneebbhatti3@gmail.com</a>
           </div>
         </div>
       </footer>
