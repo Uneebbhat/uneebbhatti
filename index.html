@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/classes.css" />
+    <link rel="stylesheet" href="/fonts/stylesheet.css" />
+    <title>Uneeb Bhatti | Home</title>
+  </head>
+  <body>
+    <header class="container flex justify-between align-center header">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="Uneeb Bhatti" />
+      </div>
+      <nav class="navbar">
+        <ul class="ul flex">
+          <li><a href="index.html" class="desktop-active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar">
+        <div
+          class="menu flex justify-center align-center"
+          onclick="toggleHide()"
+        >
+          <img src="assets/menu.svg" alt="menu" />
+        </div>
+        <nav class="mob-nav nav-active">
+          <ul class="ul flex col">
+            <li class="mobile-active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main flex justify-center align-center">
+      <div class="home-wrapper flex col justify-center align-center">
+        <h1 class="heading">
+          Hi<span class="hand-emoji">👋</span>, I am Uneeb
+        </h1>
+        <p>
+          Ready to elevate your online presence? Let's collaborate and bring
+          your ideas to life.
+        </p>
+        <div class="button">
+          <button class="btn">Launch your vision</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="js/app.js"></script>
+</html>

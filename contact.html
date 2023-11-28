@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/classes.css" />
+    <link rel="stylesheet" href="/fonts/stylesheet.css" />
+    <title>Uneeb Bhatti | Contact</title>
+  </head>
+  <body>
+    <header class="container flex justify-between align-center header">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="Uneeb Bhatti" />
+      </div>
+      <nav class="navbar">
+        <ul class="ul flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html" class="desktop-active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar">
+        <div
+          class="menu flex justify-center align-center"
+          onclick="toggleHide()"
+        >
+          <img src="assets/menu.svg" alt="menu" />
+        </div>
+        <nav class="mob-nav nav-active">
+          <ul class="ul flex col">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li class="mobile-active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact-section container flex col justify-center">
+      <div class="contact-wrapper flex col justify-center">
+        <h2 class="heading">Connect me ✉️</h2>
+        <hr />
+        <p>
+          Got an idea to discuss, a project to work on, or simply want to
+          connect? Reach out to me at
+          <a href="mailto:uneebbhatti3@gmail.com" class="email-link"
+            >uneebbhatti3@gmail.com</a
+          >
+        </p>
+      </div>
+    </section>
+  </body>
+  <script src="js/app.js"></script>
+</html>
