@@ -1,8 +1,0 @@
-.coffee-wrapper {
-    position: fixed;
-    right: 20px;
-    bottom: 8px;
-    z-index: 999;
-    max-width: 1180px;
-    margin-inline: auto;
-}
