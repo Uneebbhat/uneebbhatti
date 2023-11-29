@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap");
 
 @font-face {
-  font-family: "GRIFTER";
-  src: url("/fonts/grifterbold.woff2") format("woff2"),
-    url("/fonts/grifterbold.woff") format("woff"),
-    url("/fonts/grifterbold.ttf") format("truetype");
+  font-family: "grifterbold";
+  src: url("../font/grifterbold-webfont.woff2") format("woff2"),
+    url("../font/grifterbold-webfont.woff") format("woff"),
+    url("../font/grifterbold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -17,10 +19,12 @@
   --white: #fff;
   --light-black: #171717;
   --dark-gray: #222222;
+  --light-gray: #acacac;
   --light-blue: #61dbfb;
   --light-green: #3fa037;
   --dark-green: #3c873a;
   --dark-orange: #e34c26;
+  --yellow: #f7df1e;
   --dark-blue: #264de4;
   --purple: #a259ff;
   --dark-brown: #340100;
@@ -33,6 +37,9 @@ body {
   background-color: var(--light-black);
   color: var(--white);
   font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
 }
 
 /* Global styling */
@@ -45,6 +52,10 @@ a {
   color: var(--white);
 }
 
+p {
+  max-width: 100%;
+}
+
 button {
   border: 0;
   outline: 0;
@@ -53,6 +64,12 @@ button {
 
 hr {
   border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Header/Navbar */
@@ -107,18 +124,23 @@ hr {
 /* Home Section */
 .main {
   height: calc(100vh - 100px);
+  padding: 0 140px;
+}
+
+.main .home-wrapper {
+  text-align: center;
 }
 
 .main .home-wrapper h1 {
-  font-size: clamp(3rem, 10vw, 6rem);
+  font-size: clamp(4rem, 10vw, 6rem);
 }
 
 .main .home-wrapper p {
-  font-size: 1.5rem;
-  max-width: 100%;
-  width: 711.541px;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  /* width: 711.541px; */
   text-align: center;
   margin: 20px 0;
+  line-height: 2;
 }
 
 .main .home-wrapper .btn {
@@ -143,6 +165,60 @@ hr {
   display: inline-block;
 }
 
+/* About Page */
+.about-section {
+  padding: 60px 140px;
+}
+
+.about-section .about-wrapper .about-me {
+  flex: 0 0 35%; /* Takes 30% of the width */
+  /* background-color: lightblue; */
+  text-align: center;
+}
+
+.about-section .about-wrapper .about-me h2 {
+  font-size: 2.25rem;
+  margin-top: 25px;
+}
+
+.about-section .about-wrapper .about-me h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--light-gray);
+  margin: 5px 0;
+}
+
+.about-section .about-wrapper .about-me-content {
+  flex: 0 0 65%;
+  gap: 20px;
+}
+
+.about-section
+  .about-wrapper
+  .about-me-content
+  .tools-skills
+  .tools-skills-tags {
+  max-width: 100%;
+  width: 684px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-section .about-wrapper .about-me-content .tools-skills h2 {
+  font-size: clamp(1rem, 7vw, 2rem);
+  margin-bottom: 20px;
+}
+
+.about-section
+  .about-wrapper
+  .about-me-content
+  .tools-skills
+  .tools-skills-tags
+  span {
+  padding: 4px 12px;
+  border-radius: 2px;
+}
+
 /* Project Page */
 .project-section {
   height: calc(100vh - 100px);
@@ -159,17 +235,50 @@ hr {
 
 /* Contact Page */
 .contact-section {
-  height: calc(100vh - 100pc);
+  height: 100vh;
   padding: 60px 140px;
 }
 
-.contact-section hr {
-  margin-top: 20px;
-  margin-bottom: 30px;
+.contact-section .contact-wrapper h2 {
+  font-size: clamp(1.5rem, 10vw, 3rem);
+}
+
+.contact-section .contact-wrapper p {
+  max-width: 100%;
+  line-height: 2;
 }
 
 .contact-section .contact-wrapper .email-link {
   font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 5px;
+  transition: all 0.2s ease;
+}
+
+.contact-section .contact-wrapper .email-link:hover {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-section,
+.contact-section {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-black);
+  padding: 38px 0;
+  gap: 30px;
 }
 
 /* Animations */
