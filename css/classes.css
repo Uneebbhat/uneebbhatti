@@ -49,3 +49,44 @@
 .nav-active {
   display: block;
 }
+
+.sm-gap {
+  gap: 5px;
+}
+
+.light-blue {
+  background-color: #61dbfb;
+}
+
+.light-green {
+  background-color: #3fa037;
+}
+
+.dark-green {
+  background-color: #3c873a;
+}
+.dark-orange {
+  background-color: #e34c26;
+}
+.dark-blue {
+  background-color: #264de4;
+}
+.purple {
+  background-color: #a259ff;
+}
+.dark-brown {
+  background-color: #340100;
+}
+.navy-blue {
+  background-color: #001e36;
+}
+.carrot-orange {
+  background-color: #ef5b25;
+}
+.github {
+  background-color: #171515;
+}
+
+.yellow {
+  background-color: #f7df1e;
+}

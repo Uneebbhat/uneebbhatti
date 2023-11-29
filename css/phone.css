@@ -1,6 +1,27 @@
 @media screen and (max-width: 1200px) {
-  .header {
+  .header,
+  .main {
     padding: 0 20px;
+  }
+
+  .about-section,
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .about-section .about-wrapper,
+  .about-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-section
+    .about-wrapper
+    .about-me-content
+    .tools-skills
+    .tools-skills-tags {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
