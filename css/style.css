@@ -105,7 +105,7 @@ img {
   display: none;
   position: absolute;
   right: 20px;
-  top: 90px;
+  top: 130px;
   background-color: var(--dark-gray);
   padding: 5px;
   width: 140px;
@@ -130,7 +130,7 @@ img {
 
 /* Home Section */
 .main {
-  height: calc(100vh - 100px);
+  height: 80vh;
   padding: 0 140px;
 }
 
@@ -200,6 +200,14 @@ img {
   gap: 20px;
 }
 
+.about-heading {
+  font-size: clamp(1.5rem, 10vw, 3rem);
+}
+
+.about-section .about-wrapper .about-me-content p {
+  line-height: 2;
+}
+
 .about-section
   .about-wrapper
   .about-me-content
@@ -242,8 +250,7 @@ img {
 
 /* Contact Page */
 .contact-section {
-  height: 100vh;
-  padding: 60px 140px;
+  padding: 60px 140px 140px 140px;
 }
 
 .contact-section .contact-wrapper h2 {
@@ -286,6 +293,7 @@ img {
   background-color: var(--light-black);
   padding: 38px 0;
   gap: 30px;
+  margin-top: 30px;
 }
 
 /* Animations */

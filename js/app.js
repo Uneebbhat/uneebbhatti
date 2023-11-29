@@ -1,4 +1,10 @@
 function toggleHide() {
   const mobNav = document.querySelector(".mob-nav");
-  mobNav.classList.toggle("nav-active");
+  const computedStyle = window.getComputedStyle(mobNav);
+
+  if (computedStyle.display === "none") {
+    mobNav.style.display = "block";
+  } else {
+    mobNav.style.display = "none";
+  }
 }
