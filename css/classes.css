@@ -46,7 +46,7 @@
   font-family: "GRIFTER";
 }
 
-.nav-active {
+.mobile-navbar .mob-nav .nav-active {
   display: block;
 }
 
