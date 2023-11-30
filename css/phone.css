@@ -33,4 +33,21 @@
   .mobile-navbar {
     display: block;
   }
+
+  .main {
+    height: 60svh;
+  }
+
+  .project-section {
+    height: 80svh;
+  }
+
+  .coming-soon h2,
+  .soon span {
+    font-size: 3rem;
+  }
+
+  .soon span {
+    letter-spacing: 0;
+  }
 }

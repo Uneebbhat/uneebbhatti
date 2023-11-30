@@ -39,7 +39,7 @@ body {
   font-family: "DM Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100svh - 100px);
 }
 
 /* Global styling */
@@ -130,8 +130,8 @@ img {
 
 /* Home Section */
 .main {
-  height: 80vh;
-  padding: 0 140px;
+  height: calc(100svh - 100px);
+  padding: 60px 140px;
 }
 
 .main .home-wrapper {
@@ -139,11 +139,11 @@ img {
 }
 
 .main .home-wrapper h1 {
-  font-size: clamp(3rem, 10vw, 6rem);
+  font-size: clamp(3.5rem, 10vw, 6rem);
 }
 
 .main .home-wrapper p {
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
   /* width: 711.541px; */
   text-align: center;
   margin: 20px 0;
@@ -236,16 +236,47 @@ img {
 
 /* Project Page */
 .project-section {
-  height: calc(100vh - 100px);
+  height: calc(100svh - 100px);
 }
 
-.project-section .project-wrapper h2 {
+/* .project-section .project-wrapper h2 {
   font-size: clamp(4rem, 10vw, 8rem);
   text-align: center;
+} */
+
+/* .project-section .project-wrapper h2.letter-gap {
+  letter-spacing: clamp(1.5rem, 10vw, 2.88rem);
+} */
+
+.coming-soon {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.project-section .project-wrapper h2.letter-gap {
-  letter-spacing: clamp(1.5rem, 10vw, 2.88rem);
+.coming-soon h2 {
+  letter-spacing: 10px;
+  /* font-size: 40px; */
+  font-size: clamp(4rem, 10vw, 8rem);
+}
+
+.coming-soon span {
+  /* font-size: 60px; */
+  display: inline-block;
+}
+
+.soon {
+  margin-top: 20px;
+  letter-spacing: 20px;
+}
+
+.soon span {
+  font-size: clamp(4rem, 10vw, 8rem);
+  /* font-size: 30px; */
+  margin: 0 10px;
+}
+
+.soon span.N {
+  letter-spacing: 0;
 }
 
 /* Contact Page */
@@ -291,6 +322,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: var(--light-black);
+  /* background-color: #001e36; */
   padding: 38px 0;
   gap: 30px;
   margin-top: 30px;
