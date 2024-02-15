@@ -239,44 +239,37 @@ img {
   height: calc(100svh - 100px);
 }
 
-/* .project-section .project-wrapper h2 {
-  font-size: clamp(4rem, 10vw, 8rem);
+.project-detail {
   text-align: center;
-} */
-
-/* .project-section .project-wrapper h2.letter-gap {
-  letter-spacing: clamp(1.5rem, 10vw, 2.88rem);
-} */
-
-.coming-soon {
-  text-align: center;
-  margin-top: 50px;
 }
 
-.coming-soon h2 {
-  letter-spacing: 10px;
-  /* font-size: 40px; */
-  font-size: clamp(4rem, 10vw, 8rem);
+.project-detail-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.coming-soon span {
-  /* font-size: 60px; */
-  display: inline-block;
+.project-detail-wrapper img {
+  width: fit-content;
+  height: fit-content;
 }
 
-.soon {
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-detail .project-detail-wrapper .about-project {
+  text-align: left;
+}
+
+.project-detail .project-detail-wrapper .tools-skills {
   margin-top: 20px;
-  letter-spacing: 20px;
+  margin-left: 0;
 }
 
-.soon span {
-  font-size: clamp(4rem, 10vw, 8rem);
-  /* font-size: 30px; */
-  margin: 0 10px;
-}
-
-.soon span.N {
-  letter-spacing: 0;
+.project-detail .project-detail-wrapper .tools-skills .tools-skills-tags span {
+  padding: 4px 12px;
+  border-radius: 2px;
 }
 
 /* Contact Page */

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/phone.css" />
+    <link rel="stylesheet" href="../css/classes.css" />
+    <link rel="stylesheet" href="../fonts/stylesheet.css" />
+    <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Portfolio of a Full Stack MERN Developer showcasing skills, projects, and expertise."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, MERN Stack, Portfolio, JavaScript, React, Node.js, MongoDB,Express.js"
+    />
+    <meta name="author" content="Uneeb Bhatti" />
+
+    <title>Projects | Weather App</title>
+  </head>
+  <body>
+    <div class="under-dev-overlay" id="underDevMessage">
+      <p>This website is under development</p>
+    </div>
+
+    <header class="container flex justify-between align-center header">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/logo.svg" alt="Uneeb Bhatti" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul class="ul flex">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../project.html" class="desktop-active">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar">
+        <div
+          class="menu flex justify-center align-center"
+          onclick="toggleHide()"
+        >
+          <img src="../assets/menu.svg" alt="menu" />
+        </div>
+        <nav class="mob-nav nav-active">
+          <ul class="ul flex col">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li class="mobile-active"><a href="../project.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="project-detail container flex justify-center align-center">
+      <div class="project-detail-wrapper">
+        <h2 class="heading">Weather App</h2>
+            <div class="swiper-wrapper flex">
+                <div class="swiper-slide">
+                    <img src="../assets/project-one.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/project-one-code1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/project-one-code2.png" alt="">
+                  </div>
+            </div>
+          <div class="about-project">
+            <h3>About project</h3>
+            <p>Experience real-time weather updates with our MERN stack Weather App. This dynamic application provides users with accurate weather forecasts powered by the MongoDB, Express.js, React, and Node.js (MERN) stack. Seamlessly integrating modern technologies, users can effortlessly check weather conditions, forecasts, and trends for their desired locations. With an intuitive user interface and responsive design, our Weather App ensures accessibility across various devices, offering a seamless weather-tracking experience.</p>
+          </div>
+          <div class="project-tech-stack tools-skills">
+            <div class="tools-skills-tags sm-gap">
+                <span class="light-blue">React</span>
+                <span class="light-green">MongoDB</span>
+                <span class="yellow">JavaScript</span>
+                <span class="dark-orange">HTML</span>
+                <span class="dark-blue">CSS</span>
+                <span class="dark-green">Express</span>
+                <span class="dark-green">Node</span>
+                <span class="carrot-orange">Git</span>
+                <span class="carrot-orange">Postman</span>
+                <span class="github">Github</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="footer-wrapper">
+        <a href="https://www.linkedin.com/in/uneeb-bhatti/" target="_blank">
+          <img src="../assets/linkedin.svg" alt="Linkedin" />
+        </a>
+        <a href="mailto:uneebbhatti3@gmail.com" target="_blank">
+          <img src="../assets/gmail.svg" alt="Gmail" />
+        </a>
+        <a href="https://github.com/Uneebbhat" target="_blank">
+          <img src="../assets/github.svg" alt="Github" />
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/app.js"></script>
+</html>

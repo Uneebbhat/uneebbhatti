@@ -5,7 +5,8 @@
   }
 
   .about-section,
-  .contact-section {
+  .contact-section,
+  .project-detail {
     padding: 40px 20px;
   }
 
@@ -15,11 +16,21 @@
     flex-direction: column;
     gap: 30px;
   }
+
   .about-section
     .about-wrapper
     .about-me-content
     .tools-skills
     .tools-skills-tags {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .project-detail
+    .project-detail-wrapper
+    .tools-skills
+    .tools-skills-tags
+    span {
     max-width: 100%;
     width: 100%;
   }
@@ -40,14 +51,5 @@
 
   .project-section {
     height: 80svh;
-  }
-
-  .coming-soon h2,
-  .soon span {
-    font-size: 3rem;
-  }
-
-  .soon span {
-    letter-spacing: 0;
   }
 }
