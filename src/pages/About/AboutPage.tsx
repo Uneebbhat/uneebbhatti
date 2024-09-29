@@ -3,6 +3,7 @@ import PageLayout from "@/layout/PageLayout";
 import { FC } from "react";
 import myImg from "@/assets/uneeb.jpg";
 import resume from "@/assets/resume.svg";
+import { Link } from "react-router-dom";
 
 const AboutPage: FC = () => {
   const languages = [
@@ -136,6 +137,23 @@ const AboutPage: FC = () => {
                   allowed me to combine my development skills with product
                   management and entrepreneurship.
                 </p>
+                <br />
+                <p>
+                  I have recently embarked on my freelancing journey on
+                  platforms like <span className="font-bold">Upwork</span>,
+                  where I'm taking on exciting projects that not only refine my
+                  skills but also broaden my professional experience. If you're
+                  interested in collaborating, feel free to explore my profile
+                  and see how we can work together! {""}
+                  <Link
+                    to="https://www.upwork.com/freelancers/~013bf01b3e28523db1?viewMode=1"
+                    target="_blank"
+                    className="font-bold underline"
+                  >
+                    Check out my Upwork profile here!
+                  </Link>
+                </p>
+
                 <br />
                 <p>
                   I am always eager to take on new challenges and continue
