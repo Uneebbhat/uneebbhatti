@@ -4,14 +4,18 @@ import React, { FC } from "react";
 interface PageLayoutProps {
   title: string;
   children: React.ReactNode;
+  emoji: string;
 }
 
-const PageLayout: FC<PageLayoutProps> = ({ title, children }) => {
+const PageLayout: FC<PageLayoutProps> = ({ title, emoji, children }) => {
   return (
     <>
       <div>
-        <h2 className="text-3xl font-bold">{title}</h2>
-        <Separator />
+        <h2 className="text-3xl font-bold">
+          {title}
+          {emoji}
+        </h2>
+        <Separator className="my-4" />
         {children}
       </div>
     </>

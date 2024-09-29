@@ -66,11 +66,15 @@ const AboutPage: FC = () => {
       name: "TailwindCSS",
       color: "#61dbfb",
     },
+    {
+      name: "Cloudinary",
+      color: "#61dbfb",
+    },
   ];
   return (
     <>
       <MainLayout>
-        <PageLayout title={"About"}>
+        <PageLayout title={"About"} emoji="📖">
           <div className="flex flex-col md:flex-row">
             <div className="left w-full md:w-1/4 text-center p-4">
               <img src={myImg} alt="Uneeb" className="mx-auto" />
