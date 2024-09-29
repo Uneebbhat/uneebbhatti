@@ -146,7 +146,7 @@ const AboutPage: FC = () => {
                   interested in collaborating, feel free to explore my profile
                   and see how we can work together! {""}
                   <Link
-                    to="https://www.upwork.com/freelancers/~013bf01b3e28523db1?viewMode=1"
+                    to="https://www.upwork.com/freelancers/uneeb?mp_source=share"
                     target="_blank"
                     className="font-bold underline"
                   >
