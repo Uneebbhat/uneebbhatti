@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: "grifterbold";
+  src: url("./fonts/grifterbold-webfont.woff2") format("woff2"),
+    url("./fonts/grifterbold-webfont.woff") format("woff"),
+    url("./fonts/grifterbold-webfont.ttf") format("truetype"),
+    url("./fonts/grifterbold-webfont.svg#grifterbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "grifterbold";
+}
+
+:root {
+  --white: #fff;
+  --light-black: #171717;
+  --dark-gray: #222222;
+  --light-gray: #acacac;
+  --light-blue: #61dbfb;
+  --light-green: #3fa037;
+  --dark-green: #3c873a;
+  --dark-orange: #e34c26;
+  --yellow: #f7df1e;
+  --dark-blue: #264de4;
+  --purple: #a259ff;
+  --dark-brown: #340100;
+  --navy-blue: #001e36;
+  --carrot-orange: #ef5b25;
+  --github: #171515;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+.waving-emoji {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  transform-origin: 100% 90%;
+}
