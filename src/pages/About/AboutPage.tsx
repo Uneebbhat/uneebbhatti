@@ -161,6 +161,28 @@ const AboutPage: FC = () => {
                   innovate, collaborate, and make a lasting impact in the
                   ever-evolving world of technology.
                 </p>
+
+                <br />
+                <h2 className="heading text-2xl underline">
+                  Expanding a Family Legacy
+                </h2>
+                <p>
+                  In addition to my work as a developer, I’m deeply involved in
+                  my family’s printing press business, which has been thriving
+                  for over 40 years under the leadership of my father. Our
+                  printing press has earned a reputation for quality and
+                  reliability in the local market, providing a wide range of
+                  printing services.
+                </p>
+                <br />
+                <p>
+                  As the next generation, I’m excited to take on the challenge
+                  of expanding our business into the digital space. By bringing
+                  our services online, I aim to reach a broader audience and
+                  continue the legacy my father has built, while integrating
+                  modern technology to streamline operations and enhance
+                  customer experiences.
+                </p>
               </div>
 
               <div className="mt-5 inline-flex gap-[5px] cursor-pointer">

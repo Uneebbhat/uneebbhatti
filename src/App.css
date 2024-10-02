@@ -64,3 +64,11 @@ img {
   animation: wave 1.5s infinite;
   transform-origin: 100% 90%;
 }
+
+@media screen and (max-width: 400px) {
+  .home-buttons {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+  }
+}

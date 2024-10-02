@@ -14,8 +14,15 @@ import tokentalent from "@/assets/tokentalent.png";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
+interface Projects {
+  name: string;
+  logo: string;
+  description: string;
+  link: string;
+}
+
 const ProjectsPage: FC = () => {
-  const porjects = [
+  const porjects: Projects[] = [
     {
       name: "ClientFlow",
       logo: clientflow,
@@ -24,18 +31,18 @@ const ProjectsPage: FC = () => {
       link: "https://www.upwork.com/freelancers/uneeb?p=1817639829192945664",
     },
     {
-      name: "Coinbounce",
-      logo: coinbounce,
-      description:
-        "Coinbounce is a dynamic blogging platform for cryptocurrency enthusiasts to share insights and market analysis, featuring an intuitive interface for creating posts and integrating real-time crypto data for enhanced engagement.",
-      link: "https://www.upwork.com/freelancers/uneeb?p=1809312830301208576",
-    },
-    {
       name: "TokenTalentHR",
       logo: tokentalent,
       description:
         "TokentalentHR is a mobile app that simplifies employee attendance and leave management, allowing users to mark attendance, apply for leaves, and view payrolls with a user-friendly interface and real-time updates.",
       link: "https://www.upwork.com/freelancers/uneeb?p=1840411648092487680",
+    },
+    {
+      name: "Coinbounce",
+      logo: coinbounce,
+      description:
+        "Coinbounce is a dynamic blogging platform for cryptocurrency enthusiasts to share insights and market analysis, featuring an intuitive interface for creating posts and integrating real-time crypto data for enhanced engagement.",
+      link: "https://www.upwork.com/freelancers/uneeb?p=1809312830301208576",
     },
   ];
   return (

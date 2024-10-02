@@ -13,12 +13,12 @@ const MainLayout: FC<MainLayoutProps> = ({ children }) => {
     <>
       <div className="container mx-auto px-[15px]">
         <div className="flex items-center justify-end py-[15px]">
-          <header className="flex items-center justify-end gap-[10px]">
+          <header className="flex items-center justify-end gap-[10px] relative z-10">
             <Header />
             <div className="block md:hidden">
               <MobNav />
             </div>
-            <ModeToggle />
+            {/* <ModeToggle /> */}
           </header>
         </div>
         <div className="min-h-screen">

@@ -16,6 +16,10 @@ const Header = () => {
       route: "/projects",
     },
     {
+      label: "Printing Business",
+      route: "/printing-projects",
+    },
+    {
       label: "Contact",
       route: "/contact",
     },
