@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MobNav from "@/components/MobNav";
-import { ModeToggle } from "@/components/mode-toggle";
+// import { ModeToggle } from "@/components/mode-toggle";
 import React, { FC } from "react";
 
 interface MainLayoutProps {
