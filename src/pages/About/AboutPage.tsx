@@ -72,6 +72,7 @@ const AboutPage: FC = () => {
       color: "#61dbfb",
     },
   ];
+
   return (
     <>
       <MainLayout>
@@ -130,12 +131,25 @@ const AboutPage: FC = () => {
                 </p>
                 <br />
                 <p>
-                  In addition to my internships, I’ve also been working on my
-                  personal project, ClientFlow, a client management platform
-                  designed to help agencies manage clients, teams, and media in
-                  a streamlined way. Building this project as a side venture has
-                  allowed me to combine my development skills with product
-                  management and entrepreneurship.
+                  In addition to my internships, I am currently working on my
+                  startup, <span className="font-bold">ClientFlow</span>, a
+                  client management platform aimed at helping businesses,
+                  freelancers, and agencies efficiently manage clients, teams,
+                  and media in a streamlined manner. Developing this project has
+                  allowed me to merge my technical development skills with my
+                  growing interest in product management and entrepreneurship.
+                  This journey is not only sharpening my expertise in building
+                  scalable solutions but also giving me valuable insights into
+                  the challenges of running a tech-driven business.
+                </p>
+                <br />
+                <p>
+                  Currently, I am expanding my skill set by learning{" "}
+                  <span className="font-bold">Next.js</span> and{" "}
+                  <span className="font-bold">TypeScript</span>, technologies
+                  that are enhancing my ability to build scalable and
+                  maintainable web applications. This ongoing learning allows me
+                  to stay at the forefront of modern web development.
                 </p>
                 <br />
                 <p>
@@ -144,7 +158,7 @@ const AboutPage: FC = () => {
                   where I'm taking on exciting projects that not only refine my
                   skills but also broaden my professional experience. If you're
                   interested in collaborating, feel free to explore my profile
-                  and see how we can work together! {""}
+                  and see how we can work together!{" "}
                   <Link
                     to="https://www.upwork.com/freelancers/uneeb?mp_source=share"
                     target="_blank"
@@ -153,7 +167,6 @@ const AboutPage: FC = () => {
                     Check out my Upwork profile here!
                   </Link>
                 </p>
-
                 <br />
                 <p>
                   I am always eager to take on new challenges and continue
