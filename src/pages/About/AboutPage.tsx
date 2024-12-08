@@ -1,7 +1,7 @@
 import MainLayout from "@/layout/MainLayout";
 import PageLayout from "@/layout/PageLayout";
 import { FC } from "react";
-import myImg from "@/assets/uneeb.jpg";
+import myImg from "@/assets/uneeb.png";
 import resume from "@/assets/resume.svg";
 
 const AboutPage: FC = () => {
@@ -30,11 +30,7 @@ const AboutPage: FC = () => {
         <div className="flex flex-col md:flex-row gap-6">
           {/* Left Section */}
           <div className="left w-full md:w-1/4 text-center p-4">
-            <img
-              src={myImg}
-              alt="Uneeb Bhatti"
-              className="mx-auto rounded-lg shadow-md"
-            />
+            <img src={myImg} alt="Uneeb Bhatti" className="mx-auto" />
             <h3 className="heading mt-4 text-2xl font-bold">Uneeb Bhatti</h3>
             <p className="text-sm text-gray-600">Full-stack Developer</p>
           </div>
