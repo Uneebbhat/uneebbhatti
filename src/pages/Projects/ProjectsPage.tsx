@@ -1,19 +1,11 @@
 import MainLayout from "@/layout/MainLayout";
 import PageLayout from "@/layout/PageLayout";
 import { FC } from "react";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import agencio from "@/assets/agencio.png";
 import coinbounce from "@/assets/coinbounce.jpg";
 import tokentalent from "@/assets/tokentalent.png";
 import almTraders from "@/assets/logo.png";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 // Define colors for each tag
 const tagColors: Record<string, string> = {
