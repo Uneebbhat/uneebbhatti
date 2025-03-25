@@ -22,6 +22,7 @@ const AboutPage: FC = () => {
     { name: "Github", color: "#171515" },
     { name: "TailwindCSS", color: "#61dbfb" },
     { name: "Cloudinary", color: "#61dbfb" },
+    { name: "NextJs", color: "#0A0A0A" },
   ];
 
   return (
@@ -32,7 +33,11 @@ const AboutPage: FC = () => {
           <div className="left w-full md:w-1/4 text-center p-4">
             <img src={myImg} alt="Uneeb Bhatti" className="mx-auto" />
             <h3 className="heading mt-4 text-2xl font-bold">Uneeb Bhatti</h3>
-            <p className="text-sm text-gray-600">Full-stack Developer</p>
+            <p className="text-sm text-gray-600">
+              Founder & CEO @Codemaven Solutions
+              <br />
+              Full-stack Developer
+            </p>
           </div>
 
           {/* Right Section */}
@@ -96,20 +101,6 @@ const AboutPage: FC = () => {
 
             <section className="mt-6">
               <h2 className="heading text-2xl underline">
-                Building ClientFlow
-              </h2>
-              <p className="mt-4">
-                Alongside Codemaven, I am building{" "}
-                <span className="font-bold">ClientFlow</span>, a client
-                management platform for businesses, freelancers, and agencies.
-                Featuring team management, media storage, and a Kanban board for
-                project tracking, ClientFlow is a testament to my
-                entrepreneurial vision and technical acumen.
-              </p>
-            </section>
-
-            <section className="mt-6">
-              <h2 className="heading text-2xl underline">
                 Expanding a Family Legacy
               </h2>
               <p className="mt-4">
@@ -120,10 +111,12 @@ const AboutPage: FC = () => {
             </section>
 
             {/* Resume Section */}
-            <div className="mt-8 inline-flex gap-3 items-center cursor-pointer">
-              <img src={resume} alt="Resume icon" className="h-6 w-6" />
-              <p className="text-gray-600">Resume (coming soon)</p>
-            </div>
+            <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="mt-8 inline-flex gap-3 items-center cursor-pointer">
+                <img src={resume} alt="Resume icon" className="h-6 w-6" />
+                <p className="text-gray-600">Resume</p>
+              </div>
+            </a>
 
             {/* Languages Section */}
             <div className="languages flex flex-wrap gap-2 mt-6">
