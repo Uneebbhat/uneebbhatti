@@ -81,10 +81,9 @@ These days, I’m focused on learning, building, and shipping — usually with a
       // },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:uneebbhatti3@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -147,9 +146,9 @@ These days, I’m focused on learning, building, and shipping — usually with a
     {
       school: "Yousaf School System (YSS)",
       href: "https://web.facebook.com/yousafschool/?_rdc=1&_rdr",
-      degree: "Matriculation in Computer Science",
+      degree: "Primary School",
       logoUrl: "/yss.png",
-      start: "2005",
+      start: "2007",
       end: "2019",
     },
   ],
