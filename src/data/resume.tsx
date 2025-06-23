@@ -4,18 +4,18 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Uneeb Bhatti",
   initials: "UB",
-  url: "https://dillion.io",
+  url: "https://uneebbhatti.vercel.app/",
   location: "Lahore, PK",
   locationLink: "https://www.google.com/maps/place/lahore",
   description:
     "Full-Stack Developer turned Founder. I love to build digital solutions and empower others. Probably fixing bugs as you read this.",
-  summary: `I'm a full-stack web developer and a BSIT student at the University of Management and Technology (UMT). I specialize in building modern web applications using the MERN stack and Next.js — with a particular obsession for backend development (yes, I actually enjoy wrestling with terminal logs).
+  summary: `I'm a **full-stack web developer** and a **BSIT student at the University of Management and Technology (UMT)**. I specialize in building modern web applications using the **MERN stack** and **Next.js** — with a particular obsession for **backend development** (yes, I actually enjoy wrestling with terminal logs).
 
-I'm also the Founder & CEO of Codemaven Solutions, a service-based company where we craft web and mobile apps, design clean and intuitive interfaces, and build AI-powered chatbots that do more than just chat.
+I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft web and mobile apps, design clean and intuitive interfaces, and build **AI-powered chatbots** that do more than just chat.
 
-I’ve completed two internships across both product and service-based companies, gaining valuable experience along the way. I enjoy working on mobile apps — as long as I don’t have to deal with the quirks of mobile development itself (we have a complicated relationship).
+I've completed **two internships** across both product and service-based companies, gaining valuable experience along the way. I enjoy working on mobile apps — as long as I don't have to deal with the quirks of mobile development itself (we have a complicated relationship).
 
-These days, I’m focused on learning, building, and shipping — usually with a cup of milk in one hand and a deployment pipeline in the other. I’m also exploring the world of freelancing through Upwork — so if you’re looking for someone to bring your ideas to life, you know where to find me.
+These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a deployment pipeline in the other. I'm also exploring the world of **freelancing through Upwork** — so if you're looking for someone to bring your ideas to life, you know where to find me.
 `,
   avatarUrl: "/uneeb.png",
   skills: [
@@ -66,19 +66,6 @@ These days, I’m focused on learning, building, and shipping — usually with a
 
         navbar: true,
       },
-      // X: {
-      //   name: "X",
-      //   url: "https://dub.sh/dillion-twitter",
-      //   icon: Icons.x,
-
-      //   navbar: true,
-      // },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
       email: {
         name: "Send Email",
         url: "mailto:uneebbhatti3@gmail.com",
@@ -92,7 +79,7 @@ These days, I’m focused on learning, building, and shipping — usually with a
     {
       company: "Codemaven Solutions",
       href: "https://www.codemavensolutions.com/",
-      badges: ["Service Based Company"],
+      badges: [],
       location: "Remote",
       title: "Founder & CEO",
       logoUrl: "/codemaven.png",
@@ -103,7 +90,7 @@ These days, I’m focused on learning, building, and shipping — usually with a
     },
     {
       company: "Token Talent HR",
-      badges: ["Product Based Company"],
+      badges: [],
       href: "https://tokentalent.co/",
       location: "Lahore, PK",
       title: "Backend Developer",
@@ -116,7 +103,7 @@ These days, I’m focused on learning, building, and shipping — usually with a
     {
       company: "Concypt",
       href: "https://concypt.co.uk/",
-      badges: ["Service Based Company"],
+      badges: [],
       location: "Lahore, PK",
       title: "Front-end Developer & QA Engineer",
       logoUrl: "/concypt.jpg",
@@ -247,7 +234,7 @@ These days, I’m focused on learning, building, and shipping — usually with a
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/sysvelop.png",
     },
   ],
   hackathons: [
@@ -266,10 +253,41 @@ These days, I’m focused on learning, building, and shipping — usually with a
       dates: "Feb 2025",
       location: "Topi, KPK",
       description:
-        "I participated in the Softcom '25 Hackathon, a collaboration between UMT and GIKI, as part of a team of three members, alongside two friends. This experience allowed me to dive into a competitive tech environment, where we worked together to solve complex problems and develop innovative solutions. Although we didn’t win, the event was an excellent learning opportunity, helping me refine my skills in teamwork, problem-solving, and creative thinking. It was a great chance to network with other tech enthusiasts and gain insights that will guide my future projects.",
+        "I participated in the Softcom '25 Hackathon, a collaboration between UMT and GIKI, as part of a team of three members, alongside two friends. This experience allowed me to dive into a competitive tech environment, where we worked together to solve complex problems and develop innovative solutions. Although we didn't win, the event was an excellent learning opportunity, helping me refine my skills in teamwork, problem-solving, and creative thinking. It was a great chance to network with other tech enthusiasts and gain insights that will guide my future projects.",
       image: "/acm.jpg",
       mlh: "",
       links: [],
+    },
+  ],
+  upworkCatalog: [
+    {
+      title:
+        "You will get A Full Stack Web Application (React, Express, Node, MongoDB, Next.JS)",
+      description:
+        "Empower your business with a scalable, high-performance MERN stack web application tailored to your unique needs. Leveraging React, Next.js, Node.js, Express.js, MongoDB, and TypeScript, I deliver secure, future-proof solutions that drive engagement, streamline operations, and boost ROI.",
+      image: "/upwork-1.png",
+      price: "$200",
+      links: [
+        {
+          type: "View on UpWork",
+          href: "https://www.upwork.com/services/product/development-it-a-full-stack-web-application-react-express-node-mongodb-next-js-1937020686195953071?ref=project_share",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
+    {
+      title:
+        "You will get Fully Functional MERN Stack Web App Tailored to Your Need",
+      description: `Get a custom, high-performance full-stack web application tailored to your needs. I deliver scalable, user-friendly solutions with modern features, fast turnaround, and seamless management of both front-end and back-end development.`,
+      image: "/upwork-2.jpg",
+      price: "$149",
+      links: [
+        {
+          type: "View on UpWork",
+          href: "https://www.upwork.com/services/product/development-it-custom-full-stack-project-with-mern-stack-for-efficient-management-1840848611497964885?ref=project_share",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
   ],
 } as const;

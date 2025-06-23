@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { UpworkCatalogCard } from "@/components/upwork-catalog-card";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -144,8 +145,45 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  // video={project.video}
                   links={project.links}
+                  // video={project.video}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id="upwork-catalog">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 17}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-green-600 text-white px-3 py-1 text-sm">
+                  UpWork Project Catalog
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Hire me for your next project
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Explore my pre-defined UpWork project offerings. Click any
+                  card to view details and book directly on UpWork.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.upworkCatalog.map((item, id) => (
+              <BlurFade
+                key={item.title}
+                delay={BLUR_FADE_DELAY * 18 + id * 0.05}
+              >
+                <UpworkCatalogCard
+                  title={item.title}
+                  description={item.description}
+                  url={item.links[0].href}
+                  image={item.image}
+                  price={item.price}
+                  icon={item.links[0].icon}
                 />
               </BlurFade>
             ))}
@@ -164,7 +202,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  In university, I have attended {DATA.hackathons.length}+
+                  In university, I have attended {DATA.hackathons.length}{" "}
                   hackathons. People from different universities would come
                   together and build incredible things in 2-3 days. It was
                   eye-opening to see the endless possibilities brought to life
