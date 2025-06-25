@@ -162,9 +162,9 @@ These days, I'm focused on **learning, building, and shipping** — usually with
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/Uneebbhat/agencio-frontend.git",
-          icon: <Icons.github className="size-3" />,
+          type: "Webiste",
+          href: "https://agencioo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/agencio.jpg",
