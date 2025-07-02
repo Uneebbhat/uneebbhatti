@@ -55,20 +55,45 @@ I stopped comparing it to Express directly and instead tried to understand **why
 
 Here's what I realized:
 
+### 🔧 NestJS CLI in Action (With Explanations)
+
 ```bash
-# Getting started is simple
+# Install the NestJS CLI globally
 npm i -g @nestjs/cli
+```
+
+Installs the official NestJS CLI. This tool helps you quickly scaffold a project with best practices built-in — no manual boilerplate required.
+
+```bash
+# Create a new NestJS project
 nest new project-name
+```
 
-# Adding controllers
+Sets up a complete NestJS project with TypeScript, a clean folder structure, pre-configured tooling (like ESLint, Jest, and Prettier), and ready-to-use modules. It saves hours of manual setup.
+
+```bash
+# Generate a controller
 nest g controller user
+```
 
-# Adding module
-nest g modult user
+Creates a UserController that handles incoming HTTP requests related to the user resource (like GET /users, POST /users, etc.).
+Think of it as the entry point for client-facing HTTP routes.
 
-# Adding service
+```bash
+# Generate a module
+nest g module user
+```
+
+Generates a UserModule, which acts as a container for related components like controllers and services.
+This encapsulation supports modular and scalable code organization — ideal for large codebases.
+
+```bash
+# Generate a service
 nest g service user
 ```
+
+Creates a UserService where all your reusable business logic lives (e.g., database operations, computations, or third-party integrations).
+It can be easily injected into the controller or other services using NestJS’s built-in Dependency Injection.
 
 ## ✅ Why NestJS Makes Sense Now
 
