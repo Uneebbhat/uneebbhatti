@@ -9,12 +9,23 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { UpworkCatalogCard } from "@/components/upwork-catalog-card";
+import { getBlogPosts } from "@/data/blog";
 
 const BLUR_FADE_DELAY = 0.04;
 
-export default function Page() {
+export default async function Page() {
+  // Fetch all blog posts (returns an array)
+  const posts = await getBlogPosts();
+  // Sort by publishedAt (descending) and pick the latest
+  const latest = posts
+    .map((post) => ({
+      ...post,
+      date: new Date(post.metadata.publishedAt),
+    }))
+    .sort((a, b) => b.date.getTime() - a.date.getTime())[0];
+
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-10 max-w-2xl mx-auto">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -48,6 +59,32 @@ export default function Page() {
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
+        </BlurFade>
+      </section>
+      <section id="latest-blog">
+        <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+          <h2 className="text-xl font-bold">Latest Blog</h2>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 4.7}>
+          <div className="border rounded-lg p-6 mt-4 bg-background/80 dark:bg-muted/40 shadow-sm max-w-2xl mx-auto">
+            <div className="mb-2 text-xs text-muted-foreground">
+              {latest.metadata.publishedAt}
+            </div>
+            <Link href={`/blog/${latest.slug}`} className="hover:underline">
+              <h3 className="text-2xl font-semibold mb-2">
+                {latest.metadata.title}
+              </h3>
+            </Link>
+            <p className="text-muted-foreground mb-4">
+              {latest.metadata.summary}
+            </p>
+            <Link
+              href={`/blog/${latest.slug}`}
+              className="inline-block text-blue-500 hover:underline font-medium"
+            >
+              Read more →
+            </Link>
+          </div>
         </BlurFade>
       </section>
       <section id="work">

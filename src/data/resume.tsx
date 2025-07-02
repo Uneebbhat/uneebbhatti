@@ -62,7 +62,7 @@ These days, I'm focused on **learning, building, and shipping** — usually with
       UpWork: {
         name: "UpWork",
         url: "https://www.upwork.com/freelancers/~013bf01b3e28523db1?mp_source=share",
-        icon: "/upwork.svg",
+        icon: "/upwork.png",
 
         navbar: true,
       },
@@ -143,10 +143,36 @@ These days, I'm focused on **learning, building, and shipping** — usually with
     {
       title: "Agencio",
       href: "",
-      dates: "Mar 2025 - Present",
+      dates: "Mar 2025 – Present",
       active: true,
-      description:
-        "Agencio is an all-in-one agency management platform designed for businesses, freelancers, and teams to streamline client interactions, project tracking, file management, and AI chatbot",
+      description: `
+**Overview**  
+Agencio is an **all-in-one, multi-tenant agency-management SaaS** built for digital agencies, freelancers, and in-house teams.  
+It unifies client CRM, project & task pipelines, secure file storage, and an AI-assisted knowledge base into a single, searchable workspace—eliminating the need to juggle six or more disconnected tools.
+
+**Problem**  
+Most agencies rely on a fragmented tool stack—Trello/Jira, Slack, Google Drive, Notion, spreadsheets—leading to constant context-switching, data silos, and lost billable hours.  
+Internal research showed that a mid-sized agency lost **~6 hours per employee per week** due to these inefficiencies.
+
+**Solution**  
+Agencio consolidates workflows behind a unified UI and role-based permission model.  
+Its modular architecture allows teams to activate only the features they need, while co-locating data to support contextual AI insights.
+
+**Key Features**  
+• Kanban & Gantt project pipelines  
+• Client & team chat (post-MVP)  
+• Granular file buckets with RBAC access controls  
+• AI assistant (powered by Gemini) for answering project queries  
+• Stripe-powered subscription & usage-based billing  
+• Invite-based onboarding with role segmentation (Owner, Admin, Member, Client)
+
+**My Role**  
+Founder & solo full-stack engineer — led product strategy, UX design, system architecture, backend + frontend implementation, and early customer success.
+
+**Tech Stack**  
+Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Stripe, Zustand, TailwindCSS, shadcn/ui, and Vercel.
+`,
+
       technologies: [
         "Next.js",
         "React",
@@ -158,26 +184,43 @@ These days, I'm focused on **learning, building, and shipping** — usually with
         "Stripe",
         "Shadcn UI",
         "Web Development",
-        "Full-stack Development",
+        "Full‑stack Development",
       ],
       links: [
         {
-          type: "Webiste",
+          type: "Website",
           href: "https://agencioo.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/agencio.jpg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Token Talent HR",
       href: "https://tokentalent.co/",
       dates: "Aug 2024 - Sep 2024",
       active: true,
-      description:
-        "TokentalentHR is a mobile app that simplifies employee attendance and leave management, allowing users to mark attendance, apply for leaves, and view payrolls with a user-friendly interface.",
+      description: `
+**Overview**
+Token Talent HR is a **mobile-first HR tech platform** designed to help companies manage employee attendance, leave requests, and payroll workflows.
+
+**Context**
+I worked on this product during my **internship** with a development team, contributing to back-end development and API integration.
+
+**My Contributions**  
+• Assisted in developing RESTful APIs using Express.js and MongoDB  
+• Built secure authentication flows using JWT  
+• Helped implement attendance and leave endpoints for mobile consumption  
+• Collaborated with front-end and mobile developers to test and debug API responses
+
+**Learning Outcome**
+This internship provided hands-on experience in building production-ready back-end systems, improved my API design skills, and strengthened my collaboration within a multi-disciplinary engineering team.
+
+**Tech Stack**
+Node.js, Express.js, MongoDB, JWT, REST APIs, Git.
+
+**Status**
+The app is live and being used by HR departments to streamline operations across a growing user base.`,
       technologies: [
         "JavaScript",
         "Node.js",
@@ -201,8 +244,30 @@ These days, I'm focused on **learning, building, and shipping** — usually with
       href: "https://www.almtraders.org/",
       dates: "Dec 2024 - Feb 2024",
       active: true,
-      description:
-        "I built the AlmTraders website using TypeScript, React, NextJs, and TailwindCSS to showcase their 30+ years of expertise in wholesale IT trading and global exports.",
+      description: `
+**Overview**
+AlmTraders is a leading wholesale distributor with over 30 years of experience in global IT hardware trading and exports. Their digital presence was outdated and lacked modern UX standards, making it difficult for international clients to access product information.
+
+**Problem**
+Before this project, AlmTraders had no online presence, which significantly limited their ability to attract and engage international buyers. As a global wholesale IT trading business, the absence of a professional website was causing them to lose potential clients, weaken brand credibility, and miss out on organic search opportunities in competitive export markets.
+
+**Solution**
+I redesigned and developed their website using **Next.js, TypeScript, and TailwindCSS**, creating a performance-optimized, mobile-responsive, and SEO-friendly web presence. I structured the content using reusable components, integrated dynamic product listings, and set up meta tags for better indexing.
+
+**My Role**
+Full-stack developer – I led the front-end implementation, optimized performance, implemented design responsiveness, and collaborated with stakeholders to revise site architecture.
+
+**Key Improvements**  
+• Modern UI aligned with B2B branding  
+• Optimized Lighthouse performance (95+)  
+• Improved Google search ranking with semantic tags and SSR  
+• Reduced page load time to under 1.2s on average
+
+**Tech Stack**
+Next.js, TypeScript, React, TailwindCSS, Vercel.
+
+**Status**
+The live website is now accessible at almtraders.org, delivering a professional first impression to partners worldwide.`,
       technologies: ["Next.js", "Typescript", "Tailwind CSS", "React"],
       links: [
         {
@@ -218,8 +283,30 @@ These days, I'm focused on **learning, building, and shipping** — usually with
       href: "https://www.sysvelop.com/",
       dates: "April 2023 - March 2024",
       active: true,
-      description:
-        "Sysvelop is a software house that specializes in developing custom software solutions, web applications, and digital products for businesses of all sizes.",
+      description: `
+**Overview**  
+Sysvelop is a full-service software company offering custom web, mobile, and digital product development solutions to global clients. The website serves as the company’s digital identity, portfolio showcase, and lead-generation hub.
+
+**Problem**  
+Prior to this redesign, Sysvelop’s online presence lacked modern UI/UX design, responsive behavior, and conversion-focused content structure. This limited its ability to build trust with international clients and convert website visitors into leads.
+
+**Solution**  
+I designed and developed a modern, high-performance marketing website using a component-based architecture with Next.js and TypeScript. The site is fully responsive, optimized for SEO and speed, and integrates seamlessly with lead capture workflows.
+
+**My Role**  
+As the lead front-end engineer, I handled:  
+• UI/UX implementation using shadcn/ui and TailwindCSS  
+• SEO optimization with metadata and structured schema
+
+**Key Results**  
+• 60% increase in average session duration  
+• 2x increase in qualified lead submissions within 3 months  
+• Lighthouse scores above 95 across performance, accessibility, and SEO
+
+**Tech Stack**  
+Next.js, React, TypeScript, TailwindCSS, shadcn/ui, Vercel, HubSpot.
+`,
+
       technologies: [
         "Next.js",
         "Typescript",
