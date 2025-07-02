@@ -1,6 +1,7 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
+import rehypeRaw from "rehype-raw";
 
 export const metadata = {
   title: "Blog",
@@ -33,9 +34,15 @@ export default async function BlogPage() {
               href={`/blog/${post.slug}`}
             >
               <div className="w-full flex flex-col">
-                <p className="tracking-tight">{post.metadata.title}</p>
-                <p className="h-6 text-xs text-muted-foreground">
-                  {post.metadata.publishedAt}
+                <p className="tracking-tight font-bold text-xl">
+                  {post.metadata.title}
+                </p>
+                <p className="h-6 text-sm text-muted-foreground">
+                  {typeof post.metadata.publishedAt === "string"
+                    ? post.metadata.publishedAt
+                    : new Date(post.metadata.publishedAt)
+                        .toISOString()
+                        .slice(0, 10)}
                 </p>
               </div>
             </Link>

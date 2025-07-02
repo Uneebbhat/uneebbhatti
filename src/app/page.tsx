@@ -14,9 +14,7 @@ import { getBlogPosts } from "@/data/blog";
 const BLUR_FADE_DELAY = 0.04;
 
 export default async function Page() {
-  // Fetch all blog posts (returns an array)
   const posts = await getBlogPosts();
-  // Sort by publishedAt (descending) and pick the latest
   const latest = posts
     .map((post) => ({
       ...post,
