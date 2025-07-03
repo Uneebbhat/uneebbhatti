@@ -7,6 +7,8 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
+import { BuyMeACoffeeWidget } from "@/components/BuyMeACoffeeWidget";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -67,6 +69,7 @@ export default function RootLayout({
             {children}
             <Analytics />
             <Navbar />
+            <BuyMeACoffeeWidget />
           </TooltipProvider>
         </ThemeProvider>
       </body>

@@ -10,6 +10,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { UpworkCatalogCard } from "@/components/upwork-catalog-card";
 import { getBlogPosts } from "@/data/blog";
+import { Button } from "@/components/ui/button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -26,7 +27,7 @@ export default async function Page() {
     <main className="flex flex-col min-h-[100dvh] space-y-10 max-w-2xl mx-auto">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
+          <div className="gap-2 flex flex-col-reverse md:flex-row justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
@@ -288,6 +289,14 @@ export default async function Page() {
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>
+              <Button
+                className="bg-[#5f7fff] text-white font-bold text-xl py-[24px] hover:bg-[#6c8aff]"
+                asChild
+              >
+                <Link href={"https://buymeacoffee.com/uneebbhatti"}>
+                  ☕ Buy me a coffee
+                </Link>
+              </Button>
             </div>
           </BlurFade>
         </div>
