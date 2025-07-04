@@ -67,7 +67,9 @@ export default async function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 4.7}>
           <div className="border rounded-lg p-6 mt-4 bg-background/80 dark:bg-muted/40 shadow-sm max-w-2xl mx-auto">
             <div className="mb-2 text-xs text-muted-foreground">
-              {latest.metadata.publishedAt}
+              {typeof latest.metadata.publishedAt === "string"
+                ? latest.metadata.publishedAt
+                : latest.metadata.publishedAt.toISOString().slice(0, 10)}
             </div>
             <Link href={`/blog/${latest.slug}`} className="hover:underline">
               <h3 className="text-2xl font-semibold mb-2">
