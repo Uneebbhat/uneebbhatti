@@ -11,11 +11,11 @@ export const DATA = {
     "Full-Stack Developer turned Founder. I love to build digital solutions and empower others. Probably fixing bugs as you read this.",
   summary: `I'm a **full-stack web developer** and a **BSIT student at the University of Management and Technology (UMT)**. I specialize in building modern web applications using the **MERN stack** and **Next.js** — with a particular obsession for **backend development** (yes, I actually enjoy wrestling with terminal logs).
 
-I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft web and mobile apps, design clean and intuitive interfaces, and build **AI-powered chatbots** that do more than just chat.
+I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft **web and mobile apps**, **design clean and intuitive interfaces**, and build **AI-powered chatbots** that do more than just chat.
 
 I've completed **two internships** across both product and service-based companies, gaining valuable experience along the way. I enjoy working on mobile apps — as long as I don't have to deal with the quirks of mobile development itself (we have a complicated relationship).
 
-These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a deployment pipeline in the other. I'm also exploring the world of **freelancing through Upwork** — so if you're looking for someone to bring your ideas to life, you know where to find me.
+These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a deployment pipeline in the other. I'm also exploring the world of **freelancing through Fiverr** — so if you're looking for someone to bring your ideas to life, you know where to find me.
 `,
   avatarUrl: "/uneeb.png",
   skills: [
@@ -59,10 +59,17 @@ These days, I'm focused on **learning, building, and shipping** — usually with
 
         navbar: true,
       },
-      UpWork: {
-        name: "UpWork",
-        url: "https://www.upwork.com/freelancers/~013bf01b3e28523db1?mp_source=share",
-        icon: "/upwork.png",
+      // UpWork: {
+      //   name: "UpWork",
+      //   url: "https://www.upwork.com/freelancers/~013bf01b3e28523db1?mp_source=share",
+      //   icon: "/upwork.png",
+
+      //   navbar: true,
+      // },
+      Fiverr: {
+        name: "Fiverr",
+        url: "https://www.fiverr.com/users/uneeb_bhatti3/manage_gigs",
+        icon: "/fiverr.png",
 
         navbar: true,
       },
@@ -143,7 +150,7 @@ These days, I'm focused on **learning, building, and shipping** — usually with
     {
       title: "Agencio",
       href: "",
-      dates: "Mar 2025 – Present",
+      dates: "Mar 2025 – Present",
       active: true,
       description: `
 **Overview**  
@@ -285,10 +292,10 @@ The live website is now accessible at almtraders.org, delivering a professional 
       active: true,
       description: `
 **Overview**  
-Sysvelop is a full-service software company offering custom web, mobile, and digital product development solutions to global clients. The website serves as the company’s digital identity, portfolio showcase, and lead-generation hub.
+Sysvelop is a full-service software company offering custom web, mobile, and digital product development solutions to global clients. The website serves as the company's digital identity, portfolio showcase, and lead-generation hub.
 
 **Problem**  
-Prior to this redesign, Sysvelop’s online presence lacked modern UI/UX design, responsive behavior, and conversion-focused content structure. This limited its ability to build trust with international clients and convert website visitors into leads.
+Prior to this redesign, Sysvelop's online presence lacked modern UI/UX design, responsive behavior, and conversion-focused content structure. This limited its ability to build trust with international clients and convert website visitors into leads.
 
 **Solution**  
 I designed and developed a modern, high-performance marketing website using a component-based architecture with Next.js and TypeScript. The site is fully responsive, optimized for SEO and speed, and integrates seamlessly with lead capture workflows.
@@ -346,32 +353,62 @@ Next.js, React, TypeScript, TailwindCSS, shadcn/ui, Vercel, HubSpot.
       links: [],
     },
   ],
-  upworkCatalog: [
+  // upworkCatalog: [
+  //   {
+  //     title:
+  //       "You will get A Full Stack Web Application (React, Express, Node, MongoDB, Next.JS)",
+  //     description:
+  //       "Empower your business with a scalable, high-performance MERN stack web application tailored to your unique needs. Leveraging React, Next.js, Node.js, Express.js, MongoDB, and TypeScript, I deliver secure, future-proof solutions that drive engagement, streamline operations, and boost ROI.",
+  //     image: "/upwork-1.png",
+  //     price: "$200",
+  //     links: [
+  //       {
+  //         type: "View on UpWork",
+  //         href: "https://www.upwork.com/services/product/development-it-a-full-stack-web-application-react-express-node-mongodb-next-js-1937020686195953071?ref=project_share",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title:
+  //       "You will get Fully Functional MERN Stack Web App Tailored to Your Need",
+  //     description: `Get a custom, high-performance full-stack web application tailored to your needs. I deliver scalable, user-friendly solutions with modern features, fast turnaround, and seamless management of both front-end and back-end development.`,
+  //     image: "/upwork-2.jpg",
+  //     price: "$149",
+  //     links: [
+  //       {
+  //         type: "View on UpWork",
+  //         href: "https://www.upwork.com/services/product/development-it-custom-full-stack-project-with-mern-stack-for-efficient-management-1840848611497964885?ref=project_share",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //   },
+  // ],
+  fiverrCatalog: [
     {
-      title:
-        "You will get A Full Stack Web Application (React, Express, Node, MongoDB, Next.JS)",
+      title: "I will be your Node.js backend developer",
       description:
-        "Empower your business with a scalable, high-performance MERN stack web application tailored to your unique needs. Leveraging React, Next.js, Node.js, Express.js, MongoDB, and TypeScript, I deliver secure, future-proof solutions that drive engagement, streamline operations, and boost ROI.",
-      image: "/upwork-1.png",
-      price: "$200",
+        "Looking for a reliable Node.js backend developer? You're in the right place. I specialize in building clean, scalable, and secure backend systems using modern technologies such as Node.js, Express, MongoDB, TypeScript, and REST APIs. Whether you're launching a startup, scaling your product, or integrating third-party services like Stripe, I deliver backend solutions that are tailored to your business goals.",
+      image: "/fiverr-1.png",
+      price: "$80",
       links: [
         {
-          type: "View on UpWork",
-          href: "https://www.upwork.com/services/product/development-it-a-full-stack-web-application-react-express-node-mongodb-next-js-1937020686195953071?ref=project_share",
+          type: "View on Fiverr",
+          href: "https://www.fiverr.com/s/P2DbomP",
           icon: <Icons.globe className="size-3" />,
         },
       ],
     },
     {
-      title:
-        "You will get Fully Functional MERN Stack Web App Tailored to Your Need",
-      description: `Get a custom, high-performance full-stack web application tailored to your needs. I deliver scalable, user-friendly solutions with modern features, fast turnaround, and seamless management of both front-end and back-end development.`,
-      image: "/upwork-2.jpg",
-      price: "$149",
+      title: "I will build a full stackwebsite with the MERN stack",
+      description:
+        "Looking to build a scalable, secure, and high-performing web application from scratch? I specialize in developing end-to-end solutions using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with TypeScript. From modern frontend interfaces to robust backend APIs, I deliver tailored solutions that align with your business goals.\n\nKey Deliverables:\n- Fully functional frontend and backend\n- Scalable and maintainable architecture\n- Custom APIs and database integration\n- JWT/OAuth-based authentication and RBAC\n- TailwindCSS-powered responsive UI\n- Admin dashboards and client panels\n- Third-party API integrations\n- Performance optimization and security best practices\n\nEvery project is built with precision, ensuring a seamless user experience and reliable backend operations. Let’s bring your vision to life—place your order or contact me to discuss your project.",
+      image: "/fiverr-2.jpg",
+      price: "$80",
       links: [
         {
-          type: "View on UpWork",
-          href: "https://www.upwork.com/services/product/development-it-custom-full-stack-project-with-mern-stack-for-efficient-management-1840848611497964885?ref=project_share",
+          type: "View on Fiverr",
+          href: "https://www.fiverr.com/s/EgNKQd9",
           icon: <Icons.globe className="size-3" />,
         },
       ],

@@ -9,6 +9,7 @@ interface UpworkCatalogCardProps {
   url: string;
   image: string;
   price: string;
+  type: string;
   icon: React.ReactNode;
 }
 
@@ -19,6 +20,7 @@ export function UpworkCatalogCard({
   image,
   price,
   icon,
+  type,
 }: UpworkCatalogCardProps) {
   return (
     <div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col overflow-hidden">
@@ -43,7 +45,7 @@ export function UpworkCatalogCard({
           <Link href={url} target="_blank">
             <Badge className="flex gap-2 px-2 py-1 text-[10px] bg-green-500 hover:bg-green-400">
               {icon}
-              View on UpWork
+              {type}
             </Badge>
           </Link>
         </div>

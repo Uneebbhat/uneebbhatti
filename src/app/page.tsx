@@ -191,7 +191,7 @@ export default async function Page() {
           </div>
         </div>
       </section>
-      <section id="upwork-catalog">
+      {/* <section id="upwork-catalog">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 17}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -222,6 +222,44 @@ export default async function Page() {
                   image={item.image}
                   price={item.price}
                   icon={item.links[0].icon}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section> */}
+      <section id="fiverr-catalog">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 17}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-green-600 text-white px-3 py-1 text-sm">
+                  Fiverr Catalog
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Hire me for your next project
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Explore my Fiverr Gigs offerings. Click any card to view
+                  details and book directly on Fiverr.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.fiverrCatalog.map((item, id) => (
+              <BlurFade
+                key={item.title}
+                delay={BLUR_FADE_DELAY * 18 + id * 0.05}
+              >
+                <UpworkCatalogCard
+                  title={item.title}
+                  description={item.description}
+                  url={item.links[0].href}
+                  image={item.image}
+                  price={item.price}
+                  icon={item.links[0].icon}
+                  type={item.links[0].type}
                 />
               </BlurFade>
             ))}
@@ -283,13 +321,17 @@ export default async function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href={DATA.contact.tel}
+                  href={`https://wa.me/${DATA.contact.tel.replace(
+                    /[^\d]/g,
+                    ""
+                  )}`}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  with a direct question on whatsapp
+                  {DATA.contact.tel}
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                with a direct question on whatsapp
               </p>
               <Button
                 className="bg-[#5f7fff] text-white font-bold text-xl py-[24px] hover:bg-[#6c8aff]"
