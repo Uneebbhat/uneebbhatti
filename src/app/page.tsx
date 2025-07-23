@@ -234,20 +234,20 @@ export default async function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-green-600 text-white px-3 py-1 text-sm">
-                  Fiverr Catalog
+                  Upwork Catalog
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Hire me for your next project
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Explore my Fiverr Gigs offerings. Click any card to view
-                  details and book directly on Fiverr.
+                  Explore my Upwork Catalog offerings. Click any card to view
+                  details and book directly on Upwork.
                 </p>
               </div>
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.fiverrCatalog.map((item, id) => (
+            {DATA.upworkCatalog.map((item, id) => (
               <BlurFade
                 key={item.title}
                 delay={BLUR_FADE_DELAY * 18 + id * 0.05}
