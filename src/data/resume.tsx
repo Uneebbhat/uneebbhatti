@@ -305,7 +305,7 @@ The app is live and being used by HR departments to streamline operations across
     {
       title: "AlmTraders",
       href: "https://www.almtraders.org/",
-      dates: "Dec 2024 - Feb 2024",
+      dates: "Dec 2024 - Feb 2025",
       active: true,
       description: `
 **Overview**
@@ -344,7 +344,7 @@ The live website is now accessible at almtraders.org, delivering a professional 
     {
       title: "Sysvelop",
       href: "https://www.sysvelop.com/",
-      dates: "April 2023 - March 2024",
+      dates: "March 2024 - April 2024",
       active: true,
       description: `
 **Overview**  
