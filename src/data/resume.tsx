@@ -148,6 +148,62 @@ These days, I'm focused on **learning, building, and shipping** — usually with
   ],
   projects: [
     {
+      title: "Capto AI",
+      href: "",
+      dates: "August 2025 - Present",
+      active: true,
+      description: `
+**Overview**  
+Capto AI is a **content creation assistant** built for creators, marketers, and entrepreneurs who want to produce engaging content faster.  
+It provides two powerful AI-driven tools — a **Captions Generator** for short, engaging social media captions, and a **Prompt Generator** for crafting high-quality prompts for any AI model, especially for those who struggle to write effective prompts.
+
+**Problem**  
+Content creators often spend too much time brainstorming captions or struggle to get the right output from AI tools because of poorly written prompts.  
+This leads to wasted time, inconsistent quality, and missed posting opportunities.
+
+**Solution**  
+Capto AI offers a streamlined interface with no overcomplicated settings — just input your topic or idea, and instantly get either ready-to-use captions or professionally structured prompts.  
+It’s designed to help users create better content, faster, without the learning curve of prompt engineering.
+
+**Key Features**  
+• Captions Generator for quick, attention-grabbing social posts  
+• Prompt Generator to get high-quality results from any AI tool  
+• Simple, distraction-free UI for fast results  
+• Usage limits with Free & Paid plans  
+• Instant web access — no downloads required
+
+**My Role**  
+Founder & solo full-stack engineer — led product concept, UX/UI design, system architecture, backend + frontend development, and deployment.
+
+**Tech Stack**  
+Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Zustand, TailwindCSS, shadcn/ui, and Vercel.
+`,
+
+      technologies: [
+        "Next.js",
+        "React",
+        "Typescript",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Web Development",
+        "Full-stack Development",
+        "AI",
+        "Vercel AI SDK",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://capto-ai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/capto-ai.png",
+    },
+
+    {
       title: "Agencio",
       href: "",
       dates: "Mar 2025 – Present",
