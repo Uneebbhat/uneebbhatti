@@ -412,9 +412,11 @@ Next.js, React, TypeScript, TailwindCSS, shadcn/ui, Vercel, HubSpot.
   upworkCatalog: [
     {
       title:
-        "You will get A Full Stack Web Application (React, Express, Node, MongoDB, Next.JS)",
-      description:
-        "Empower your business with a scalable, high-performance MERN stack web application tailored to your unique needs. Leveraging React, Next.js, Node.js, Express.js, MongoDB, and TypeScript, I deliver secure, future-proof solutions that drive engagement, streamline operations, and boost ROI.",
+        "You will get a custom web application with React, Node.js, and MongoDB (MERN stack)",
+      description: `Get a Custom Web Application Built with React, Node.js & MongoDB
+        
+        Looking for a modern, scalable web app that drives business growth? I develop end-to-end MERN stack solutions (React, Next.js, Node.js, Express, MongoDB, TypeScript) tailored to your needs.
+        `,
       image: "/upwork-1.png",
       price: "$200",
       links: [
