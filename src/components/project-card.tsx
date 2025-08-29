@@ -53,11 +53,7 @@ export function ProjectCard({
 }: Props) {
   return (
     <Dialog>
-      <Card
-        className={
-          "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
-        }
-      >
+      <Card className={"flex flex-col overflow-hidden border h-full"}>
         {video && (
           <video
             src={video}

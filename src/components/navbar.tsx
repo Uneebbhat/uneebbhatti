@@ -10,6 +10,7 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggler";
 
 export default function Navbar() {
   return (
@@ -69,7 +70,7 @@ export default function Navbar() {
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
-              <ModeToggle />
+              <AnimatedThemeToggler />
             </TooltipTrigger>
             <TooltipContent>
               <p>Theme</p>

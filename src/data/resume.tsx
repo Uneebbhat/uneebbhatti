@@ -9,14 +9,14 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/lahore",
   description:
     "Full-Stack Developer turned Founder. I love to build digital solutions and empower others. Probably fixing bugs as you read this.",
+
   summary: `I'm a **full-stack web developer** and a **BSIT student at the University of Management and Technology (UMT)**. I specialize in building modern web applications using the **MERN stack** and **Next.js** — with a particular obsession for **backend development** (yes, I actually enjoy wrestling with terminal logs).
 
-I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft **web and mobile apps**, **design clean and intuitive interfaces**, and build **AI-powered chatbots** that do more than just chat.
+I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft **web and mobile apps**, design **clean and intuitive interfaces**, and build **AI-powered applications**.
 
-I've completed **two internships** across both product and service-based companies, gaining valuable experience along the way. I enjoy working on mobile apps — as long as I don't have to deal with the quirks of mobile development itself (we have a complicated relationship).
+I've completed **two internships** across both product and service-based companies, gaining valuable experience along the way. I also enjoy working on **mobile apps** — as long as I don't have to deal with the quirks of mobile development itself (we have a complicated relationship).
 
-These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a deployment pipeline in the other. I'm also exploring the world of **freelancing through Upwork** — so if you're looking for someone to bring your ideas to life, you know where to find me.
-`,
+These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a **deployment pipeline** in the other. I'm also exploring the world of **freelancing through Upwork** — so if you're looking for someone to bring your ideas to life, you know where to find me.`,
   avatarUrl: "/uneeb.png",
   skills: [
     "React",
@@ -36,6 +36,8 @@ These days, I'm focused on **learning, building, and shipping** — usually with
     "Shadcn UI",
     "Adobe Illustrator",
     "Adobe Photoshop",
+    "Generative AI",
+    "Vercel AI SDK",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -204,61 +206,6 @@ Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Zustand, TailwindCSS, 
     },
 
     {
-      title: "Agencio",
-      href: "",
-      dates: "Mar 2025 – Present",
-      active: true,
-      description: `
-**Overview**  
-Agencio is an **all-in-one, multi-tenant agency-management SaaS** built for digital agencies, freelancers, and in-house teams.  
-It unifies client CRM, project & task pipelines, secure file storage, and an AI-assisted knowledge base into a single, searchable workspace—eliminating the need to juggle six or more disconnected tools.
-
-**Problem**  
-Most agencies rely on a fragmented tool stack—Trello/Jira, Slack, Google Drive, Notion, spreadsheets—leading to constant context-switching, data silos, and lost billable hours.  
-Internal research showed that a mid-sized agency lost **~6 hours per employee per week** due to these inefficiencies.
-
-**Solution**  
-Agencio consolidates workflows behind a unified UI and role-based permission model.  
-Its modular architecture allows teams to activate only the features they need, while co-locating data to support contextual AI insights.
-
-**Key Features**  
-• Kanban & Gantt project pipelines  
-• Client & team chat (post-MVP)  
-• Granular file buckets with RBAC access controls  
-• AI assistant (powered by Gemini) for answering project queries  
-• Stripe-powered subscription & usage-based billing  
-• Invite-based onboarding with role segmentation (Owner, Admin, Member, Client)
-
-**My Role**  
-Founder & solo full-stack engineer — led product strategy, UX design, system architecture, backend + frontend implementation, and early customer success.
-
-**Tech Stack**  
-Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Stripe, Zustand, TailwindCSS, shadcn/ui, and Vercel.
-`,
-
-      technologies: [
-        "Next.js",
-        "React",
-        "Typescript",
-        "MongoDB",
-        "Express.js",
-        "Node.js",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Web Development",
-        "Full‑stack Development",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://agencioo.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/agencio.jpg",
-    },
-    {
       title: "Token Talent HR",
       href: "https://tokentalent.co/",
       dates: "Aug 2024 - Sep 2024",
@@ -385,6 +332,61 @@ Next.js, React, TypeScript, TailwindCSS, shadcn/ui, Vercel, HubSpot.
         },
       ],
       image: "/sysvelop.png",
+    },
+    {
+      title: "Agencio",
+      href: "",
+      dates: "Mar 2025 – Present",
+      active: true,
+      description: `
+**Overview**  
+Agencio is an **all-in-one, multi-tenant agency-management SaaS** built for digital agencies, freelancers, and in-house teams.  
+It unifies client CRM, project & task pipelines, secure file storage, and an AI-assisted knowledge base into a single, searchable workspace—eliminating the need to juggle six or more disconnected tools.
+
+**Problem**  
+Most agencies rely on a fragmented tool stack—Trello/Jira, Slack, Google Drive, Notion, spreadsheets—leading to constant context-switching, data silos, and lost billable hours.  
+Internal research showed that a mid-sized agency lost **~6 hours per employee per week** due to these inefficiencies.
+
+**Solution**  
+Agencio consolidates workflows behind a unified UI and role-based permission model.  
+Its modular architecture allows teams to activate only the features they need, while co-locating data to support contextual AI insights.
+
+**Key Features**  
+• Kanban & Gantt project pipelines  
+• Client & team chat (post-MVP)  
+• Granular file buckets with RBAC access controls  
+• AI assistant (powered by Gemini) for answering project queries  
+• Stripe-powered subscription & usage-based billing  
+• Invite-based onboarding with role segmentation (Owner, Admin, Member, Client)
+
+**My Role**  
+Founder & solo full-stack engineer — led product strategy, UX design, system architecture, backend + frontend implementation, and early customer success.
+
+**Tech Stack**  
+Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Stripe, Zustand, TailwindCSS, shadcn/ui, and Vercel.
+`,
+
+      technologies: [
+        "Next.js",
+        "React",
+        "Typescript",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Web Development",
+        "Full‑stack Development",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://agencioo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/agencio.jpg",
     },
   ],
   hackathons: [
