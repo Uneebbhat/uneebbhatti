@@ -91,7 +91,7 @@ These days, I'm focused on **learning, building, and shipping** — usually with
       badges: [],
       location: "Remote",
       title: "Founder & CEO",
-      logoUrl: "/codemaven.png",
+      logoUrl: "/codemavensolutions.png",
       start: "July 2024",
       end: "Present",
       description:
