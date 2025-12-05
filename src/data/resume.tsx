@@ -10,13 +10,15 @@ export const DATA = {
   description:
     "Full-Stack Developer turned Founder. I love to build digital solutions and empower others. Probably fixing bugs as you read this.",
 
-  summary: `I'm a **full-stack web developer** and a **BSIT student at the University of Management and Technology (UMT)**. I specialize in building modern web applications using the **MERN stack** and **Next.js** — with a particular obsession for **backend development** (yes, I actually enjoy wrestling with terminal logs).
+  summary: `I'm a **full-stack web developer** and a **BSIT student at the University of Management and Technology (UMT)**, specializing in modern web applications built with the **MERN stack** and **Next.js**. I have a strong inclination toward **backend engineering** and genuinely enjoy navigating complex logs and production-level problem-solving.
 
-I'm also the **Founder & CEO of Codemaven Solutions**, a service-based company where we craft **web and mobile apps**, design **clean and intuitive interfaces**, and build **AI-powered applications**.
+In addition to my technical work, I serve as the **Web Development Lead at UMT ACM**, where I oversee the planning and execution of **developer-focused workshops**, **training sessions**, and **technical events**. This role enables me to contribute to the community while strengthening my leadership and facilitation capabilities.
 
-I've completed **two internships** across both product and service-based companies, gaining valuable experience along the way. I also enjoy working on **mobile apps** — as long as I don't have to deal with the quirks of mobile development itself (we have a complicated relationship).
+I'm also the **Founder & CEO of Codemaven Solutions**, a company dedicated to building **web and mobile applications**, crafting **clean and intuitive user experiences**, and developing **AI-powered solutions**.
 
-These days, I'm focused on **learning, building, and shipping** — usually with a cup of milk in one hand and a **deployment pipeline** in the other. I'm also exploring the world of **freelancing through Upwork** — so if you're looking for someone to bring your ideas to life, you know where to find me.`,
+I’ve completed **two internships** across both product and service-based companies, gaining practical experience in real-world engineering challenges. I enjoy working on **mobile applications** as well—despite my ongoing love-hate relationship with the quirks of mobile development.
+
+Currently, my focus is on **continuous learning**, **building**, and **shipping impactful products**—often with a cup of milk in one hand and a deployment pipeline in the other. I'm also exploring **freelancing opportunities on Upwork**, so if you're looking for someone to execute your vision with precision, you know where to reach me.`,
   avatarUrl: "/uneeb.png",
   skills: [
     "React",
@@ -390,6 +392,16 @@ Next.js 15, React, TypeScript, Express.js, MongoDB Atlas, Stripe, Zustand, Tailw
     },
   ],
   hackathons: [
+    {
+      title: "Web Development Lead - ACM",
+      dates: "December 2025",
+      location: "Lahore, PK",
+      description:
+        "Appointed as the Web Development Lead at UMT ACM, where I am responsible for planning, managing, and executing technical workshops and web-focused events. This role allows me to engage with the developer community, coordinate cross-functional activities, and ensure high-quality learning experiences for students. Through this position, I continue to refine my leadership, communication, and technical facilitation capabilities.",
+      image: "/acm.jpg",
+      mlh: "",
+      links: [],
+    },
     {
       title: "Management Team - TechVerse",
       dates: "June 2025",
